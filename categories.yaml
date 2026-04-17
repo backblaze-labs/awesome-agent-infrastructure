@@ -1,0 +1,38 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+
+- slug: agent-frameworks
+  name: Agent Frameworks
+  description: Libraries for building LLM agents — planning, tool use, multi-agent orchestration.
+
+- slug: memory-and-state
+  name: Memory and State
+  description: Long-term memory, session state, and knowledge-retention layers for agents.
+
+- slug: tool-protocols-and-servers
+  name: Tool Protocols and Servers
+  description: Standardised interfaces for exposing tools and data sources to agents (MCP and friends).
+
+- slug: execution-sandboxes
+  name: Execution Sandboxes
+  description: Secure environments for running agent-generated code, shell commands, and browser sessions.
+
+- slug: browser-and-computer-use
+  name: Browser and Computer Use
+  description: Platforms and SDKs that let agents drive web browsers and full desktops.
+
+- slug: observability-and-evaluation
+  name: Observability and Evaluation
+  description: Tracing, logging, metrics, and automated evals for LLM applications.
+
+- slug: retrieval-and-rag
+  name: Retrieval and RAG
+  description: Retrieval-augmented generation frameworks and document-indexing libraries.
+
+- slug: vector-databases
+  name: Vector Databases
+  description: Vector stores and embedding databases commonly used by agents for semantic recall.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.

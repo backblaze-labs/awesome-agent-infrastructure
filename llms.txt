@@ -1,0 +1,102 @@
+# Awesome Agent Infrastructure
+
+> A curated list of infrastructure for building reliable LLM agents — frameworks, memory, tool protocols, sandboxes, browsers, observability, and retrieval.
+
+## Agent Frameworks
+
+- [Microsoft AutoGen](https://microsoft.github.io/autogen/): Multi-agent conversation framework from Microsoft Research. AutoGen 0.4 rewrote it around an event-driven runtime.
+  - docs: https://microsoft.github.io/autogen/stable/
+- [CrewAI](https://www.crewai.com): Role-based multi-agent framework. Agents, tasks, and tools composed into crews with deterministic or planning-based flows.
+  - docs: https://docs.crewai.com
+- [Agno](https://www.agno.com): Lightweight Python framework for building multimodal agents and agentic systems. Formerly Phidata.
+  - docs: https://docs.agno.com
+- [LangGraph](https://langchain-ai.github.io/langgraph/): Graph-based agent runtime from the LangChain team. Durable execution, human-in-the-loop, and multi-actor patterns.
+  - docs: https://langchain-ai.github.io/langgraph/tutorials/introduction/
+- [HuggingFace smolagents](https://huggingface.co/docs/smolagents): Minimal "code agent" library — agents write Python to solve tasks. ~1k LoC core; easy to audit and extend.
+  - docs: https://github.com/huggingface/smolagents
+- [Mastra](https://mastra.ai): TypeScript-first agent framework with workflows, RAG, and evals. From the creators of Gatsby.
+  - docs: https://mastra.ai/docs
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/): Official OpenAI agent framework. Handoffs, guardrails, built-in tracing, and Responses-API-native execution.
+  - docs: https://github.com/openai/openai-agents-python
+- [Pydantic AI](https://ai.pydantic.dev): Agent framework from the Pydantic team. Type-safe tool calling, structured outputs, dependency injection.
+  - docs: https://ai.pydantic.dev
+
+## Memory and State
+
+- [Mem0](https://mem0.ai): Memory layer for AI agents. Personalization through user/agent/session memories with semantic recall.
+  - docs: https://docs.mem0.ai
+- [Letta](https://www.letta.com): Open-source agent server focused on long-term memory. Successor to MemGPT; agents are first-class stateful services.
+  - docs: https://docs.letta.com
+- [Zep](https://www.getzep.com): Memory and context platform for LLM apps. Knowledge-graph-backed user memory with temporal reasoning.
+  - docs: https://help.getzep.com
+
+## Tool Protocols and Servers
+
+- [MCP Reference Servers](https://github.com/modelcontextprotocol/servers): Reference MCP server implementations for filesystem, Git, GitHub, SQL, Slack, and more.
+- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk): Official Python SDK for building and consuming MCP servers and clients.
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk): Official TypeScript SDK for MCP servers and clients.
+- [Anthropic Model Context Protocol](https://modelcontextprotocol.io): Open protocol for connecting AI applications to tools and data sources. Spec, reference servers, and official SDKs.
+  - docs: https://modelcontextprotocol.io/introduction
+
+## Execution Sandboxes
+
+- [Daytona](https://www.daytona.io): Open-source dev-environment manager; Daytona Sandboxes expose a sandbox API for agents and CI pipelines.
+  - docs: https://www.daytona.io/docs
+- [E2B](https://e2b.dev): Secure cloud sandboxes for running AI-generated code. Firecracker microVMs, sub-second startup, per-session isolation.
+  - docs: https://e2b.dev/docs
+- [Modal Sandboxes](https://modal.com/docs/guide/sandbox): Serverless sandbox primitive inside Modal. Arbitrary container execution, ephemeral filesystems, strict network policies.
+- [Riza](https://riza.io): Secure code-execution API for LLM tool calls. Python, JS, PHP, Ruby; strict WASM-based isolation.
+  - docs: https://docs.riza.io
+
+## Browser and Computer Use
+
+- [browser-use](https://browser-use.com): Open-source library giving LLMs reliable control of a Playwright browser. Self-host or use their cloud.
+  - docs: https://docs.browser-use.com
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp): Microsoft's official MCP server for Playwright. Gives any MCP-aware agent a controllable browser.
+- [Anthropic Computer Use](https://docs.claude.com/en/docs/build-with-claude/computer-use): Claude's computer-use tool for controlling a full desktop. Reference Docker image and sample agent loop from Anthropic.
+- [Browserbase](https://www.browserbase.com): Managed headless browsers for AI agents. Session recording, proxying, CAPTCHA handling, and a Stagehand framework.
+  - docs: https://docs.browserbase.com
+
+## Observability and Evaluation
+
+- [Langfuse](https://langfuse.com): Open-source LLM engineering platform — traces, prompt management, datasets, and evals. Self-host or managed.
+  - docs: https://langfuse.com/docs
+- [Opik (Comet)](https://www.comet.com/site/products/opik/): Open-source LLM evaluation and tracing from Comet. Playground, datasets, experiment comparison.
+  - docs: https://www.comet.com/docs/opik/
+- [Arize Phoenix](https://phoenix.arize.com): Open-source LLM tracing and evaluation. OpenTelemetry-based, self-hostable, integrates with every major framework.
+  - docs: https://docs.arize.com/phoenix
+- [Helicone](https://www.helicone.ai): Open-source proxy-based observability for LLM apps. Logging, caching, rate-limiting, and costs with minimal code.
+  - docs: https://docs.helicone.ai
+- [LangSmith](https://www.langchain.com/langsmith): Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework.
+  - docs: https://docs.smith.langchain.com
+
+## Retrieval and RAG
+
+- [LangChain](https://www.langchain.com): LLM composition library. Document loaders, retrievers, and chains form the RAG backbone for many apps.
+  - docs: https://python.langchain.com
+- [LlamaIndex](https://www.llamaindex.ai): Data framework for connecting custom data sources to LLMs. Document loaders, indexing, query engines, and agents.
+  - docs: https://docs.llamaindex.ai
+- [Haystack (deepset)](https://haystack.deepset.ai): End-to-end NLP framework for building RAG, search, and agent applications. Pipelines compose components.
+  - docs: https://docs.haystack.deepset.ai
+- [RAGAS](https://www.ragas.io): Framework for evaluating RAG pipelines. Reference-free metrics for faithfulness, answer relevancy, and context precision.
+  - docs: https://docs.ragas.io
+
+## Vector Databases
+
+- [Milvus](https://milvus.io): Scalable open-source vector database from Zilliz. Horizontal scale, GPU indexing, LF AI & Data graduated project.
+  - docs: https://milvus.io/docs
+- [Qdrant](https://qdrant.tech): High-performance vector database in Rust. Strong filter DSL, quantization, and hybrid search.
+  - docs: https://qdrant.tech/documentation/
+- [Chroma](https://www.trychroma.com): AI-native embeddings database. Popular choice for local/laptop development and quick prototyping.
+  - docs: https://docs.trychroma.com
+- [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity extension for Postgres. Exact and approximate nearest-neighbour with HNSW and IVFFlat.
+- [Weaviate](https://weaviate.io): Vector search with built-in vectorization modules and a schema-aware GraphQL API.
+  - docs: https://weaviate.io/developer/
+- [LanceDB](https://lancedb.com): Serverless vector database on the Lance columnar format. Zero-copy, versioned, runs directly over S3-compatible storage.
+  - docs: https://lancedb.github.io/lancedb/
+
+## Templates and Example Projects
+
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers): Community-maintained catalogue of MCP servers. Useful reference when deciding what to build vs. adopt.
+- [LangGraph Examples](https://github.com/langchain-ai/langgraph/tree/main/examples): Reference LangGraph flows — ReAct agents, human-in-the-loop, multi-agent collaboration.
+- [OpenAI Agents Python Examples](https://github.com/openai/openai-agents-python/tree/main/examples): Official examples for the OpenAI Agents SDK — handoffs, voice, parallelism, guardrails.
