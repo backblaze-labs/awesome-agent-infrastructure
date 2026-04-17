@@ -100,6 +100,44 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Google ADK
+  url: https://adk.dev
+  docs_url: https://adk.dev
+  description: Google's open-source agent development kit. Build, evaluate, and deploy multi-agent systems; multi-language with Gemini-optimized but model-agnostic.
+  category: agent-frameworks
+  github: google/adk-python
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install google-adk)}
+    - {language: TypeScript (npm install @google/adk)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Microsoft Agent Framework
+  url: https://devblogs.microsoft.com/agent-framework/
+  docs_url: https://learn.microsoft.com/en-us/agent-framework/overview/
+  description: Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations.
+  category: agent-frameworks
+  github: microsoft/agent-framework
+  license: MIT
+  sdks:
+    - {language: Python (pip install agent-framework)}
+    - {language: .NET (dotnet add package Microsoft.Agents.AI)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Langroid
+  url: https://langroid.github.io/langroid/
+  docs_url: https://langroid.github.io/langroid/
+  description: Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency.
+  category: agent-frameworks
+  github: langroid/langroid
+  license: MIT
+  sdks:
+    - {language: Python (pip install langroid)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Memory and State ----------------
 
 - name: Letta
@@ -220,6 +258,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Microsoft Agent Governance Toolkit
+  url: https://github.com/microsoft/agent-governance-toolkit
+  description: Runtime policy enforcement for autonomous agents. Zero-trust identity, execution sandboxing, sub-millisecond policy checks; covers all 10 OWASP Agentic Top 10 risks.
+  category: execution-sandboxes
+  github: microsoft/agent-governance-toolkit
+  license: MIT
+  sdks:
+    - {language: Python (pip install agent-governance-toolkit)}
+    - {language: TypeScript (npm install @microsoft/agentmesh-sdk)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
@@ -318,6 +368,18 @@
   category: observability-and-evaluation
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: OpenLLMetry
+  url: https://github.com/traceloop/openllmetry
+  description: OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs.
+  category: observability-and-evaluation
+  github: traceloop/openllmetry
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install traceloop-sdk)}
+    - {language: TypeScript (npm install @traceloop/node-server-sdk)}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Retrieval and RAG ----------------
 

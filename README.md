@@ -2,7 +2,7 @@
 
 A curated list of infrastructure for building reliable LLM agents — frameworks, memory, tool protocols, sandboxes, browsers, observability, and retrieval.
 
-Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+Maintained by [Backblaze](https://www.backblaze.com).
 
 ### Related Lists
 
@@ -39,6 +39,9 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Mastra](https://mastra.ai)** – TypeScript-first agent framework with workflows, RAG, and evals. From the creators of Gatsby. [Docs](https://mastra.ai/docs) | SDK: TypeScript (npm install @mastra/core)
 - **[OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)** – Official OpenAI agent framework. Handoffs, guardrails, built-in tracing, and Responses-API-native execution. [Docs](https://github.com/openai/openai-agents-python) | SDK: Python (pip install openai-agents)
 - **[Pydantic AI](https://ai.pydantic.dev)** – Agent framework from the Pydantic team. Type-safe tool calling, structured outputs, dependency injection. [Docs](https://ai.pydantic.dev) | SDK: Python (pip install pydantic-ai)
+- **[Google ADK](https://adk.dev)** – Google's open-source agent development kit. Build, evaluate, and deploy multi-agent systems; multi-language with Gemini-optimized but model-agnostic. [Docs](https://adk.dev) | SDK: Python (pip install google-adk), TypeScript (npm install @google/adk)
+- **[Langroid](https://langroid.github.io/langroid/)** – Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency. [Docs](https://langroid.github.io/langroid/) | SDK: Python (pip install langroid)
+- **[Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/)** – Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations. [Docs](https://learn.microsoft.com/en-us/agent-framework/overview/) | SDK: Python (pip install agent-framework), .NET (dotnet add package Microsoft.Agents.AI)
 
 ## Memory and State
 
@@ -63,6 +66,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 
 - **[Daytona](https://www.daytona.io)** – Open-source dev-environment manager; Daytona Sandboxes expose a sandbox API for agents and CI pipelines. [Docs](https://www.daytona.io/docs)
 - **[E2B](https://e2b.dev)** – Secure cloud sandboxes for running AI-generated code. Firecracker microVMs, sub-second startup, per-session isolation. [Docs](https://e2b.dev/docs) | SDK: Python (pip install e2b), JS (npm install @e2b/code-interpreter)
+- **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** – Runtime policy enforcement for autonomous agents. Zero-trust identity, execution sandboxing, sub-millisecond policy checks; covers all 10 OWASP Agentic Top 10 risks. SDK: Python (pip install agent-governance-toolkit), TypeScript (npm install @microsoft/agentmesh-sdk)
 - **[Modal Sandboxes](https://modal.com/docs/guide/sandbox)** – Serverless sandbox primitive inside Modal. Arbitrary container execution, ephemeral filesystems, strict network policies.
 - **[Riza](https://riza.io)** – Secure code-execution API for LLM tool calls. Python, JS, PHP, Ruby; strict WASM-based isolation. [Docs](https://docs.riza.io)
 
@@ -84,6 +88,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Arize Phoenix](https://phoenix.arize.com)** – Open-source LLM tracing and evaluation. OpenTelemetry-based, self-hostable, integrates with every major framework. [Docs](https://docs.arize.com/phoenix) | SDK: Python (pip install arize-phoenix)
 - **[Helicone](https://www.helicone.ai)** – Open-source proxy-based observability for LLM apps. Logging, caching, rate-limiting, and costs with minimal code. [Docs](https://docs.helicone.ai)
 - **[LangSmith](https://www.langchain.com/langsmith)** – Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework. [Docs](https://docs.smith.langchain.com)
+- **[OpenLLMetry](https://github.com/traceloop/openllmetry)** – OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs. SDK: Python (pip install traceloop-sdk), TypeScript (npm install @traceloop/node-server-sdk)
 
 ## Retrieval and RAG
 
@@ -125,4 +130,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.

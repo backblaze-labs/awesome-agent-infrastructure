@@ -20,6 +20,12 @@
   - docs: https://github.com/openai/openai-agents-python
 - [Pydantic AI](https://ai.pydantic.dev): Agent framework from the Pydantic team. Type-safe tool calling, structured outputs, dependency injection.
   - docs: https://ai.pydantic.dev
+- [Google ADK](https://adk.dev): Google's open-source agent development kit. Build, evaluate, and deploy multi-agent systems; multi-language with Gemini-optimized but model-agnostic.
+  - docs: https://adk.dev
+- [Langroid](https://langroid.github.io/langroid/): Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency.
+  - docs: https://langroid.github.io/langroid/
+- [Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/): Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations.
+  - docs: https://learn.microsoft.com/en-us/agent-framework/overview/
 
 ## Memory and State
 
@@ -44,6 +50,7 @@
   - docs: https://www.daytona.io/docs
 - [E2B](https://e2b.dev): Secure cloud sandboxes for running AI-generated code. Firecracker microVMs, sub-second startup, per-session isolation.
   - docs: https://e2b.dev/docs
+- [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Runtime policy enforcement for autonomous agents. Zero-trust identity, execution sandboxing, sub-millisecond policy checks; covers all 10 OWASP Agentic Top 10 risks.
 - [Modal Sandboxes](https://modal.com/docs/guide/sandbox): Serverless sandbox primitive inside Modal. Arbitrary container execution, ephemeral filesystems, strict network policies.
 - [Riza](https://riza.io): Secure code-execution API for LLM tool calls. Python, JS, PHP, Ruby; strict WASM-based isolation.
   - docs: https://docs.riza.io
@@ -69,6 +76,7 @@
   - docs: https://docs.helicone.ai
 - [LangSmith](https://www.langchain.com/langsmith): Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework.
   - docs: https://docs.smith.langchain.com
+- [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs.
 
 ## Retrieval and RAG
 
