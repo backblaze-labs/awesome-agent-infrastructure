@@ -584,3 +584,70 @@
   category: templates-and-example-projects
   b2_integration: ""
   last_verified: 2026-04-17
+
+# ---------------- Agent Frameworks (additions) ----------------
+
+- name: AG2
+  url: https://ag2.ai
+  docs_url: https://docs.ag2.ai/
+  description: Community-maintained fork of AutoGen 0.2. Multi-agent conversation framework with swarms, group chats, and nested chat patterns.
+  category: agent-frameworks
+  github: ag2ai/ag2
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install ag2)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Memory and State (additions) ----------------
+
+- name: Cognee
+  url: https://www.cognee.ai
+  docs_url: https://docs.cognee.ai
+  description: Knowledge engine for agent memory. ECL pipeline ingests any data into a hybrid vector + knowledge graph for structured, traceable recall.
+  category: memory-and-state
+  github: topoteretes/cognee
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install cognee)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Tool Protocols and Servers (additions) ----------------
+
+- name: Composio
+  url: https://composio.dev
+  docs_url: https://docs.composio.dev
+  description: Tool-integration SDK for AI agents. 1000+ pre-built tool connectors (GitHub, Slack, Jira, etc.) with managed auth and sandboxed execution.
+  category: tool-protocols-and-servers
+  github: ComposioHQ/composio
+  license: MIT
+  sdks:
+    - {language: Python (pip install composio)}
+    - {language: TypeScript (npm install @composio/core)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: AWS MCP Servers
+  url: https://awslabs.github.io/mcp/
+  docs_url: https://awslabs.github.io/mcp/
+  description: Suite of 53 open-source MCP servers for AWS services — CloudFormation, Bedrock, DynamoDB, EKS, S3, and more.
+  category: tool-protocols-and-servers
+  github: awslabs/mcp
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+# ---------------- Observability and Evaluation (additions) ----------------
+
+- name: AgentOps
+  url: https://www.agentops.ai
+  docs_url: https://docs.agentops.ai
+  description: Observability and DevTool SDK for AI agents. Session replays, LLM cost tracking, multi-agent tracing, and framework integrations.
+  category: observability-and-evaluation
+  github: AgentOps-AI/agentops
+  license: MIT
+  sdks:
+    - {language: Python (pip install agentops)}
+  b2_integration: ""
+  last_verified: 2026-04-18
