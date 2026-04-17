@@ -175,6 +175,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Graphiti
+  url: https://github.com/getzep/graphiti
+  docs_url: https://help.getzep.com/graphiti
+  description: Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval.
+  category: memory-and-state
+  github: getzep/graphiti
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install graphiti-core)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Tool Protocols and Servers ----------------
 
 - name: Anthropic Model Context Protocol
@@ -217,6 +229,37 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: MCP Inspector
+  url: https://github.com/modelcontextprotocol/inspector
+  description: Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports.
+  category: tool-protocols-and-servers
+  github: modelcontextprotocol/inspector
+  license: MIT
+  sdks:
+    - {language: TypeScript (npx @modelcontextprotocol/inspector)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Agent2Agent Protocol (A2A)
+  url: https://github.com/a2aproject/A2A
+  docs_url: https://a2a-protocol.org
+  description: Open protocol for communication and interoperability between AI agents. JSON-RPC 2.0 over HTTP with SDKs for Python, Go, JS, Java, and .NET.
+  category: tool-protocols-and-servers
+  github: a2aproject/A2A
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: MCPX
+  url: https://github.com/TheLunarCompany/lunar/tree/main/mcpx
+  docs_url: https://docs.lunar.dev/mcpx/
+  description: Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies.
+  category: tool-protocols-and-servers
+  github: TheLunarCompany/lunar
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Execution Sandboxes ----------------
 
@@ -378,6 +421,18 @@
   sdks:
     - {language: Python (pip install traceloop-sdk)}
     - {language: TypeScript (npm install @traceloop/node-server-sdk)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: TruLens
+  url: https://github.com/truera/trulens
+  docs_url: https://www.trulens.org/docs/
+  description: Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard.
+  category: observability-and-evaluation
+  github: truera/trulens
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install trulens)}
   b2_integration: ""
   last_verified: 2026-04-18
 

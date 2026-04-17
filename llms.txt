@@ -35,6 +35,8 @@
   - docs: https://docs.letta.com
 - [Zep](https://www.getzep.com): Memory and context platform for LLM apps. Knowledge-graph-backed user memory with temporal reasoning.
   - docs: https://help.getzep.com
+- [Graphiti](https://github.com/getzep/graphiti): Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval.
+  - docs: https://help.getzep.com/graphiti
 
 ## Tool Protocols and Servers
 
@@ -43,6 +45,11 @@
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk): Official TypeScript SDK for MCP servers and clients.
 - [Anthropic Model Context Protocol](https://modelcontextprotocol.io): Open protocol for connecting AI applications to tools and data sources. Spec, reference servers, and official SDKs.
   - docs: https://modelcontextprotocol.io/introduction
+- [Agent2Agent Protocol (A2A)](https://github.com/a2aproject/A2A): Open protocol for communication and interoperability between AI agents. JSON-RPC 2.0 over HTTP with SDKs for Python, Go, JS, Java, and .NET.
+  - docs: https://a2a-protocol.org
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports.
+- [MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx): Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies.
+  - docs: https://docs.lunar.dev/mcpx/
 
 ## Execution Sandboxes
 
@@ -77,6 +84,8 @@
 - [LangSmith](https://www.langchain.com/langsmith): Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework.
   - docs: https://docs.smith.langchain.com
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs.
+- [TruLens](https://github.com/truera/trulens): Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard.
+  - docs: https://www.trulens.org/docs/
 
 ## Retrieval and RAG
 

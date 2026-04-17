@@ -50,6 +50,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Mem0](https://mem0.ai)** – Memory layer for AI agents. Personalization through user/agent/session memories with semantic recall. [Docs](https://docs.mem0.ai) | SDK: Python (pip install mem0ai), Node (npm install mem0ai)
 - **[Letta](https://www.letta.com)** – Open-source agent server focused on long-term memory. Successor to MemGPT; agents are first-class stateful services. [Docs](https://docs.letta.com) | SDK: Python (pip install letta-client)
 - **[Zep](https://www.getzep.com)** – Memory and context platform for LLM apps. Knowledge-graph-backed user memory with temporal reasoning. [Docs](https://help.getzep.com)
+- **[Graphiti](https://github.com/getzep/graphiti)** – Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval. [Docs](https://help.getzep.com/graphiti) | SDK: Python (pip install graphiti-core)
 
 ## Tool Protocols and Servers
 
@@ -59,6 +60,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** – Official Python SDK for building and consuming MCP servers and clients. SDK: Python (pip install mcp)
 - **[MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)** – Official TypeScript SDK for MCP servers and clients. SDK: TypeScript (npm install @modelcontextprotocol/sdk)
 - **[Anthropic Model Context Protocol](https://modelcontextprotocol.io)** – Open protocol for connecting AI applications to tools and data sources. Spec, reference servers, and official SDKs. [Docs](https://modelcontextprotocol.io/introduction)
+- **[Agent2Agent Protocol (A2A)](https://github.com/a2aproject/A2A)** – Open protocol for communication and interoperability between AI agents. JSON-RPC 2.0 over HTTP with SDKs for Python, Go, JS, Java, and .NET. [Docs](https://a2a-protocol.org)
+- **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** – Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports. SDK: TypeScript (npx @modelcontextprotocol/inspector)
+- **[MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx)** – Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies. [Docs](https://docs.lunar.dev/mcpx/)
 
 ## Execution Sandboxes
 
@@ -89,6 +93,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Helicone](https://www.helicone.ai)** – Open-source proxy-based observability for LLM apps. Logging, caching, rate-limiting, and costs with minimal code. [Docs](https://docs.helicone.ai)
 - **[LangSmith](https://www.langchain.com/langsmith)** – Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework. [Docs](https://docs.smith.langchain.com)
 - **[OpenLLMetry](https://github.com/traceloop/openllmetry)** – OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs. SDK: Python (pip install traceloop-sdk), TypeScript (npm install @traceloop/node-server-sdk)
+- **[TruLens](https://github.com/truera/trulens)** – Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard. [Docs](https://www.trulens.org/docs/) | SDK: Python (pip install trulens)
 
 ## Retrieval and RAG
 
