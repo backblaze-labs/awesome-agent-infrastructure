@@ -22,12 +22,20 @@
   - docs: https://ai.pydantic.dev
 - [AG2](https://ag2.ai): Community-maintained fork of AutoGen 0.2. Multi-agent conversation framework with swarms, group chats, and nested chat patterns.
   - docs: https://docs.ag2.ai/
+- [DeerFlow](https://github.com/bytedance/deer-flow): ByteDance's open-source super-agent harness built on LangGraph. Orchestrates sub-agents, memory, sandboxes, and skills for long-horizon tasks.
+  - docs: https://github.com/bytedance/deer-flow/blob/main/README.md
 - [Google ADK](https://adk.dev): Google's open-source agent development kit. Build, evaluate, and deploy multi-agent systems; multi-language with Gemini-optimized but model-agnostic.
   - docs: https://adk.dev
 - [Langroid](https://langroid.github.io/langroid/): Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency.
   - docs: https://langroid.github.io/langroid/
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT): Multi-agent framework that assigns software-company roles (PM, architect, engineer) to LLMs. Input a requirement, get PRD, design, code, and tests.
+  - docs: https://docs.deepwisdom.ai/main/en/
 - [Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/): Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations.
   - docs: https://learn.microsoft.com/en-us/agent-framework/overview/
+- [Strands Agents](https://strandsagents.com): AWS-backed open-source agent SDK. Define tools as functions; the model-driven loop handles planning and execution with no workflow graphs required.
+  - docs: https://strandsagents.com/latest/
+- [VoltAgent](https://voltagent.dev): TypeScript agent framework with memory adapters, RAG, tool registry, multi-agent supervisor coordination, voice support, and built-in evals.
+  - docs: https://voltagent.dev/docs/
 
 ## Memory and State
 
@@ -93,6 +101,8 @@
   - docs: https://docs.agentops.ai
 - [LangSmith](https://www.langchain.com/langsmith): Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework.
   - docs: https://docs.smith.langchain.com
+- [Latitude](https://latitude.so): Open-source agent engineering platform. Production observability, LLM-as-judge evals, issue grouping, and GEPA-based prompt optimisation.
+  - docs: https://docs.latitude.so
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs.
 - [TruLens](https://github.com/truera/trulens): Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard.
   - docs: https://www.trulens.org/docs/

@@ -599,6 +599,53 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: DeerFlow
+  url: https://github.com/bytedance/deer-flow
+  docs_url: https://github.com/bytedance/deer-flow/blob/main/README.md
+  description: ByteDance's open-source super-agent harness built on LangGraph. Orchestrates sub-agents, memory, sandboxes, and skills for long-horizon tasks.
+  category: agent-frameworks
+  github: bytedance/deer-flow
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Strands Agents
+  url: https://strandsagents.com
+  docs_url: https://strandsagents.com/latest/
+  description: AWS-backed open-source agent SDK. Define tools as functions; the model-driven loop handles planning and execution with no workflow graphs required.
+  category: agent-frameworks
+  github: strands-agents/sdk-python
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install strands-agents)}
+    - {language: TypeScript (npm install @strands-agents/sdk)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: MetaGPT
+  url: https://github.com/FoundationAgents/MetaGPT
+  docs_url: https://docs.deepwisdom.ai/main/en/
+  description: Multi-agent framework that assigns software-company roles (PM, architect, engineer) to LLMs. Input a requirement, get PRD, design, code, and tests.
+  category: agent-frameworks
+  github: FoundationAgents/MetaGPT
+  license: MIT
+  sdks:
+    - {language: Python (pip install metagpt)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: VoltAgent
+  url: https://voltagent.dev
+  docs_url: https://voltagent.dev/docs/
+  description: TypeScript agent framework with memory adapters, RAG, tool registry, multi-agent supervisor coordination, voice support, and built-in evals.
+  category: agent-frameworks
+  github: VoltAgent/voltagent
+  license: MIT
+  sdks:
+    - {language: TypeScript (npm create voltagent-app@latest)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Memory and State (additions) ----------------
 
 - name: Cognee
@@ -649,5 +696,15 @@
   license: MIT
   sdks:
     - {language: Python (pip install agentops)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Latitude
+  url: https://latitude.so
+  docs_url: https://docs.latitude.so
+  description: Open-source agent engineering platform. Production observability, LLM-as-judge evals, issue grouping, and GEPA-based prompt optimisation.
+  category: observability-and-evaluation
+  github: latitude-dev/latitude-llm
+  license: LGPL-3.0
   b2_integration: ""
   last_verified: 2026-04-18
