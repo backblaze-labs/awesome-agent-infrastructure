@@ -32,6 +32,9 @@
   - docs: https://docs.deepwisdom.ai/main/en/
 - [Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/): Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations.
   - docs: https://learn.microsoft.com/en-us/agent-framework/overview/
+- [OpenSRE](https://github.com/Tracer-Cloud/opensre): Open-source toolkit for building AI SRE agents. Connects to 60+ observability, cloud, and incident-management tools; auto-fetches alert context, correlates logs/metrics, and generates root-cause reports.
+- [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/): Microsoft's open-source SDK for building LLM agents and multi-agent systems. Model-agnostic; plugins, planners, and process orchestration across Python, C#, and Java.
+  - docs: https://learn.microsoft.com/en-us/semantic-kernel/
 - [Strands Agents](https://strandsagents.com): AWS-backed open-source agent SDK. Define tools as functions; the model-driven loop handles planning and execution with no workflow graphs required.
   - docs: https://strandsagents.com/latest/
 - [VoltAgent](https://voltagent.dev): TypeScript agent framework with memory adapters, RAG, tool registry, multi-agent supervisor coordination, voice support, and built-in evals.
@@ -49,6 +52,8 @@
   - docs: https://docs.cognee.ai
 - [Graphiti](https://github.com/getzep/graphiti): Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval.
   - docs: https://help.getzep.com/graphiti
+- [ReMe](https://github.com/agentscope-ai/ReMe): Memory management kit for AI agents. Conversation compaction, long-term file-based and vector memory, semantic search; compresses context by up to 99.5% while retaining critical facts.
+  - docs: https://github.com/agentscope-ai/ReMe/blob/main/README.md
 
 ## Tool Protocols and Servers
 
@@ -103,6 +108,8 @@
   - docs: https://docs.smith.langchain.com
 - [Latitude](https://latitude.so): Open-source agent engineering platform. Production observability, LLM-as-judge evals, issue grouping, and GEPA-based prompt optimisation.
   - docs: https://docs.latitude.so
+- [MLflow](https://mlflow.org): Open-source AI engineering platform with LLM/agent tracing built on OpenTelemetry, 50+ eval metrics, prompt management, and an AI gateway. Supports 60+ agent frameworks.
+  - docs: https://mlflow.org/docs/latest/llms/tracing/index.html
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs.
 - [TruLens](https://github.com/truera/trulens): Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard.
   - docs: https://www.trulens.org/docs/
@@ -117,6 +124,8 @@
   - docs: https://docs.haystack.deepset.ai
 - [RAGAS](https://www.ragas.io): Framework for evaluating RAG pipelines. Reference-free metrics for faithfulness, answer relevancy, and context precision.
   - docs: https://docs.ragas.io
+- [LightRAG](https://github.com/HKUDS/LightRAG): RAG system combining knowledge graphs with dual-level (local + global) retrieval. Fast indexing, graph-based entity-relation extraction, and multiple query modes.
+  - docs: https://lightrag.github.io
 
 ## Vector Databases
 

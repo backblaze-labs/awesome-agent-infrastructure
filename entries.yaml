@@ -708,3 +708,70 @@
   license: LGPL-3.0
   b2_integration: ""
   last_verified: 2026-04-18
+
+# ---------------- Agent Frameworks (additions 2026-04-21) ----------------
+
+- name: Semantic Kernel
+  url: https://learn.microsoft.com/en-us/semantic-kernel/overview/
+  docs_url: https://learn.microsoft.com/en-us/semantic-kernel/
+  description: Microsoft's open-source SDK for building LLM agents and multi-agent systems. Model-agnostic; plugins, planners, and process orchestration across Python, C#, and Java.
+  category: agent-frameworks
+  github: microsoft/semantic-kernel
+  license: MIT
+  sdks:
+    - {language: Python (pip install semantic-kernel)}
+    - {language: C# (dotnet add package Microsoft.SemanticKernel)}
+    - {language: "Java (Maven: com.microsoft.semantic-kernel)"}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: OpenSRE
+  url: https://github.com/Tracer-Cloud/opensre
+  description: Open-source toolkit for building AI SRE agents. Connects to 60+ observability, cloud, and incident-management tools; auto-fetches alert context, correlates logs/metrics, and generates root-cause reports.
+  category: agent-frameworks
+  github: Tracer-Cloud/opensre
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Memory and State (additions 2026-04-21) ----------------
+
+- name: ReMe
+  url: https://github.com/agentscope-ai/ReMe
+  docs_url: https://github.com/agentscope-ai/ReMe/blob/main/README.md
+  description: Memory management kit for AI agents. Conversation compaction, long-term file-based and vector memory, semantic search; compresses context by up to 99.5% while retaining critical facts.
+  category: memory-and-state
+  github: agentscope-ai/ReMe
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install reme)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Retrieval and RAG (additions 2026-04-21) ----------------
+
+- name: LightRAG
+  url: https://github.com/HKUDS/LightRAG
+  docs_url: https://lightrag.github.io
+  description: RAG system combining knowledge graphs with dual-level (local + global) retrieval. Fast indexing, graph-based entity-relation extraction, and multiple query modes.
+  category: retrieval-and-rag
+  github: HKUDS/LightRAG
+  license: MIT
+  sdks:
+    - {language: Python (pip install lightrag-hku)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Observability and Evaluation (additions 2026-04-21) ----------------
+
+- name: MLflow
+  url: https://mlflow.org
+  docs_url: https://mlflow.org/docs/latest/llms/tracing/index.html
+  description: Open-source AI engineering platform with LLM/agent tracing built on OpenTelemetry, 50+ eval metrics, prompt management, and an AI gateway. Supports 60+ agent frameworks.
+  category: observability-and-evaluation
+  github: mlflow/mlflow
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install mlflow)}
+  b2_integration: ""
+  last_verified: 2026-04-21

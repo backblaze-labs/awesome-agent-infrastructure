@@ -45,6 +45,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Langroid](https://langroid.github.io/langroid/)** – Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency. [Docs](https://langroid.github.io/langroid/) | SDK: Python (pip install langroid)
 - **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** – Multi-agent framework that assigns software-company roles (PM, architect, engineer) to LLMs. Input a requirement, get PRD, design, code, and tests. [Docs](https://docs.deepwisdom.ai/main/en/) | SDK: Python (pip install metagpt)
 - **[Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/)** – Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations. [Docs](https://learn.microsoft.com/en-us/agent-framework/overview/) | SDK: Python (pip install agent-framework), .NET (dotnet add package Microsoft.Agents.AI)
+- **[OpenSRE](https://github.com/Tracer-Cloud/opensre)** – Open-source toolkit for building AI SRE agents. Connects to 60+ observability, cloud, and incident-management tools; auto-fetches alert context, correlates logs/metrics, and generates root-cause reports.
+- **[Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/)** – Microsoft's open-source SDK for building LLM agents and multi-agent systems. Model-agnostic; plugins, planners, and process orchestration across Python, C#, and Java. [Docs](https://learn.microsoft.com/en-us/semantic-kernel/) | SDK: Python (pip install semantic-kernel), C# (dotnet add package Microsoft.SemanticKernel), Java (Maven: com.microsoft.semantic-kernel)
 - **[Strands Agents](https://strandsagents.com)** – AWS-backed open-source agent SDK. Define tools as functions; the model-driven loop handles planning and execution with no workflow graphs required. [Docs](https://strandsagents.com/latest/) | SDK: Python (pip install strands-agents), TypeScript (npm install @strands-agents/sdk)
 - **[VoltAgent](https://voltagent.dev)** – TypeScript agent framework with memory adapters, RAG, tool registry, multi-agent supervisor coordination, voice support, and built-in evals. [Docs](https://voltagent.dev/docs/) | SDK: TypeScript (npm create voltagent-app@latest)
 
@@ -57,6 +59,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Zep](https://www.getzep.com)** – Memory and context platform for LLM apps. Knowledge-graph-backed user memory with temporal reasoning. [Docs](https://help.getzep.com)
 - **[Cognee](https://www.cognee.ai)** – Knowledge engine for agent memory. ECL pipeline ingests any data into a hybrid vector + knowledge graph for structured, traceable recall. [Docs](https://docs.cognee.ai) | SDK: Python (pip install cognee)
 - **[Graphiti](https://github.com/getzep/graphiti)** – Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval. [Docs](https://help.getzep.com/graphiti) | SDK: Python (pip install graphiti-core)
+- **[ReMe](https://github.com/agentscope-ai/ReMe)** – Memory management kit for AI agents. Conversation compaction, long-term file-based and vector memory, semantic search; compresses context by up to 99.5% while retaining critical facts. [Docs](https://github.com/agentscope-ai/ReMe/blob/main/README.md) | SDK: Python (pip install reme)
 
 ## Tool Protocols and Servers
 
@@ -102,6 +105,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[AgentOps](https://www.agentops.ai)** – Observability and DevTool SDK for AI agents. Session replays, LLM cost tracking, multi-agent tracing, and framework integrations. [Docs](https://docs.agentops.ai) | SDK: Python (pip install agentops)
 - **[LangSmith](https://www.langchain.com/langsmith)** – Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework. [Docs](https://docs.smith.langchain.com)
 - **[Latitude](https://latitude.so)** – Open-source agent engineering platform. Production observability, LLM-as-judge evals, issue grouping, and GEPA-based prompt optimisation. [Docs](https://docs.latitude.so)
+- **[MLflow](https://mlflow.org)** – Open-source AI engineering platform with LLM/agent tracing built on OpenTelemetry, 50+ eval metrics, prompt management, and an AI gateway. Supports 60+ agent frameworks. [Docs](https://mlflow.org/docs/latest/llms/tracing/index.html) | SDK: Python (pip install mlflow)
 - **[OpenLLMetry](https://github.com/traceloop/openllmetry)** – OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs. SDK: Python (pip install traceloop-sdk), TypeScript (npm install @traceloop/node-server-sdk)
 - **[TruLens](https://github.com/truera/trulens)** – Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard. [Docs](https://www.trulens.org/docs/) | SDK: Python (pip install trulens)
 
@@ -113,6 +117,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[LlamaIndex](https://www.llamaindex.ai)** – Data framework for connecting custom data sources to LLMs. Document loaders, indexing, query engines, and agents. [Docs](https://docs.llamaindex.ai) | SDK: Python (pip install llama-index), TypeScript (npm install llamaindex)
 - **[Haystack (deepset)](https://haystack.deepset.ai)** – End-to-end NLP framework for building RAG, search, and agent applications. Pipelines compose components. [Docs](https://docs.haystack.deepset.ai) | SDK: Python (pip install haystack-ai)
 - **[RAGAS](https://www.ragas.io)** – Framework for evaluating RAG pipelines. Reference-free metrics for faithfulness, answer relevancy, and context precision. [Docs](https://docs.ragas.io) | SDK: Python (pip install ragas)
+- **[LightRAG](https://github.com/HKUDS/LightRAG)** – RAG system combining knowledge graphs with dual-level (local + global) retrieval. Fast indexing, graph-based entity-relation extraction, and multiple query modes. [Docs](https://lightrag.github.io) | SDK: Python (pip install lightrag-hku)
 
 ## Vector Databases
 
