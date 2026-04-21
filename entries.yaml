@@ -775,3 +775,57 @@
     - {language: Python (pip install mlflow)}
   b2_integration: ""
   last_verified: 2026-04-21
+
+# ---------------- Agent Frameworks (additions 2026-04-21b) ----------------
+
+- name: OpenAI Agents SDK (TypeScript)
+  url: https://openai.github.io/openai-agents-js/
+  docs_url: https://openai.github.io/openai-agents-js/
+  description: Official OpenAI agent framework for TypeScript and JavaScript. Agents, handoffs, guardrails, voice via Realtime API, and built-in tracing.
+  category: agent-frameworks
+  github: openai/openai-agents-js
+  license: MIT
+  sdks:
+    - {language: TypeScript (npm install @openai/agents)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Memory and State (additions 2026-04-21b) ----------------
+
+- name: Hindsight
+  url: https://hindsight.vectorize.io
+  docs_url: https://hindsight.vectorize.io/docs
+  description: Open-source agent memory system using biomimetic data structures. Organises memories into world facts, experiences, and mental models; TEMPR retrieval combines semantic, keyword, graph, and temporal search.
+  category: memory-and-state
+  github: vectorize-io/hindsight
+  license: MIT
+  sdks:
+    - {language: Python (pip install hindsight-client)}
+    - {language: TypeScript (npm install @vectorize-io/hindsight-client)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Execution Sandboxes (additions 2026-04-21b) ----------------
+
+- name: OpenShell
+  url: https://github.com/NVIDIA/OpenShell
+  description: NVIDIA's open-source sandbox runtime for autonomous agents. Declarative YAML policies govern file access, network activity, and data exfiltration; supports Claude, Codex, Copilot, and OpenCode.
+  category: execution-sandboxes
+  github: NVIDIA/OpenShell
+  license: Apache-2.0
+  sdks:
+    - {language: Python (uv tool install openshell)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+# ---------------- Retrieval and RAG (additions 2026-04-21b) ----------------
+
+- name: RAGFlow
+  url: https://ragflow.io
+  docs_url: https://ragflow.io/docs/dev/
+  description: Open-source agentic RAG engine with deep document understanding and intelligent chunking. Combines RAG pipelines with agent workflows, MCP integration, and multi-turn conversational retrieval.
+  category: retrieval-and-rag
+  github: infiniflow/ragflow
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
