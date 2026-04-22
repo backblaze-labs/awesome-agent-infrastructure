@@ -187,6 +187,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Puppyone
+  url: https://www.puppyone.ai
+  docs_url: https://www.puppyone.ai/doc
+  description: File system for agents. Connect, govern, version, and share context across agent workflows.
+  category: memory-and-state
+  github: puppyone-ai/puppyone
+  license: Other
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Tool Protocols and Servers ----------------
 
 - name: Anthropic Model Context Protocol
