@@ -76,6 +76,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Composio](https://composio.dev)** – Tool-integration SDK for AI agents. 1000+ pre-built tool connectors (GitHub, Slack, Jira, etc.) with managed auth and sandboxed execution. [Docs](https://docs.composio.dev) | SDK: Python (pip install composio), TypeScript (npm install @composio/core)
 - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** – Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports. SDK: TypeScript (npx @modelcontextprotocol/inspector)
 - **[MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx)** – Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies. [Docs](https://docs.lunar.dev/mcpx/)
+- **[kc-agent (KubeStellar Console)](https://github.com/kubestellar/console)** – MCP bridge that exposes multi-cluster Kubernetes resources (pods, deployments, namespaces, events, Helm releases, and more) as MCP tools — letting any MCP-compatible AI agent query and reason over live fleet data. Ships as a standalone HTTP/WS daemon (`kc-agent`); no cluster-side install required. [Docs](https://github.com/kubestellar/console#kc-agent-bridge-self-hosted-console-to-your-clusters)
 
 ## Execution Sandboxes
 
