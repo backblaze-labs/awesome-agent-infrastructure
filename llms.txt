@@ -34,6 +34,7 @@
   - docs: https://docs.deepwisdom.ai/main/en/
 - [Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/): Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations.
   - docs: https://learn.microsoft.com/en-us/agent-framework/overview/
+- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent): TypeScript multi-agent orchestration with automatic goal-to-DAG decomposition, parallel task execution, MCP integration, and live tracing. Three runtime dependencies; 10+ LLM providers supported.
 - [OpenAI Agents SDK (TypeScript)](https://openai.github.io/openai-agents-js/): Official OpenAI agent framework for TypeScript and JavaScript. Agents, handoffs, guardrails, voice via Realtime API, and built-in tracing.
   - docs: https://openai.github.io/openai-agents-js/
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre): Open-source toolkit for building AI SRE agents. Connects to 60+ observability, cloud, and incident-management tools; auto-fetches alert context, correlates logs/metrics, and generates root-cause reports.
@@ -78,9 +79,12 @@
   - docs: https://awslabs.github.io/mcp/
 - [Composio](https://composio.dev): Tool-integration SDK for AI agents. 1000+ pre-built tool connectors (GitHub, Slack, Jira, etc.) with managed auth and sandboxed execution.
   - docs: https://docs.composio.dev
+- [IBM ContextForge](https://ibm.github.io/mcp-context-forge/latest/): Open-source MCP/A2A/REST gateway and registry. Federates MCP servers, A2A agents, and REST/gRPC APIs behind a single governed endpoint with auth, rate limiting, and OpenTelemetry tracing.
+  - docs: https://ibm.github.io/mcp-context-forge/latest/
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports.
 - [MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx): Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies.
   - docs: https://docs.lunar.dev/mcpx/
+- [n8n-mcp](https://github.com/czlonkowski/n8n-mcp): MCP server exposing n8n's 1,650+ workflow nodes to AI agents. Provides node docs, schema properties, operations, and workflow validation for agents building n8n automations.
 
 ## Execution Sandboxes
 
@@ -115,6 +119,8 @@
   - docs: https://docs.helicone.ai
 - [AgentOps](https://www.agentops.ai): Observability and DevTool SDK for AI agents. Session replays, LLM cost tracking, multi-agent tracing, and framework integrations.
   - docs: https://docs.agentops.ai
+- [DeepEval](https://deepeval.com): Open-source LLM and agent evaluation framework. Pytest-native with 50+ built-in metrics (hallucination, faithfulness, role adherence), multi-turn eval support, and CI/CD integration.
+  - docs: https://deepeval.com/docs/getting-started
 - [Laminar](https://laminar.sh): Open-source observability platform purpose-built for AI agents. OTel-native tracing, step-level replay/rerun, Signals pattern extraction across traces, evals, and self-hostable via Docker.
   - docs: https://docs.lmnr.ai
 - [LangSmith](https://www.langchain.com/langsmith): Commercial tracing, evaluation, and prompt engineering platform from the LangChain team. Works with any LLM framework.

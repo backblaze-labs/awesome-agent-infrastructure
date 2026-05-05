@@ -896,3 +896,55 @@
     - {language: TypeScript (npm install -g flowise)}
   b2_integration: ""
   last_verified: 2026-05-04
+
+# ---------------- Agent Frameworks (additions 2026-05-04b) ----------------
+
+- name: open-multi-agent
+  url: https://github.com/JackChen-me/open-multi-agent
+  description: TypeScript multi-agent orchestration with automatic goal-to-DAG decomposition, parallel task execution, MCP integration, and live tracing. Three runtime dependencies; 10+ LLM providers supported.
+  category: agent-frameworks
+  github: JackChen-me/open-multi-agent
+  license: MIT
+  sdks:
+    - {language: TypeScript (npm install @jackchen_me/open-multi-agent)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Tool Protocols and Servers (additions 2026-05-04b) ----------------
+
+- name: IBM ContextForge
+  url: https://ibm.github.io/mcp-context-forge/latest/
+  docs_url: https://ibm.github.io/mcp-context-forge/latest/
+  description: Open-source MCP/A2A/REST gateway and registry. Federates MCP servers, A2A agents, and REST/gRPC APIs behind a single governed endpoint with auth, rate limiting, and OpenTelemetry tracing.
+  category: tool-protocols-and-servers
+  github: IBM/mcp-context-forge
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install mcp-contextforge-gateway)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: n8n-mcp
+  url: https://github.com/czlonkowski/n8n-mcp
+  description: MCP server exposing n8n's 1,650+ workflow nodes to AI agents. Provides node docs, schema properties, operations, and workflow validation for agents building n8n automations.
+  category: tool-protocols-and-servers
+  github: czlonkowski/n8n-mcp
+  license: MIT
+  sdks:
+    - {language: TypeScript (npx n8n-mcp)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Observability and Evaluation (additions 2026-05-04b) ----------------
+
+- name: DeepEval
+  url: https://deepeval.com
+  docs_url: https://deepeval.com/docs/getting-started
+  description: Open-source LLM and agent evaluation framework. Pytest-native with 50+ built-in metrics (hallucination, faithfulness, role adherence), multi-turn eval support, and CI/CD integration.
+  category: observability-and-evaluation
+  github: confident-ai/deepeval
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install -U deepeval)}
+  b2_integration: ""
+  last_verified: 2026-05-04
