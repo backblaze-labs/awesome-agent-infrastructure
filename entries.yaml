@@ -839,3 +839,60 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-21
+
+# ---------------- Observability and Evaluation (additions 2026-05-04) ----------------
+
+- name: Laminar
+  url: https://laminar.sh
+  docs_url: https://docs.lmnr.ai
+  description: Open-source observability platform purpose-built for AI agents. OTel-native tracing, step-level replay/rerun, Signals pattern extraction across traces, evals, and self-hostable via Docker.
+  category: observability-and-evaluation
+  github: lmnr-ai/lmnr
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install lmnr)}
+    - {language: TypeScript (npm install @lmnr-ai/lmnr)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Retrieval and RAG (additions 2026-05-04) ----------------
+
+- name: CocoIndex
+  url: https://cocoindex.io
+  docs_url: https://cocoindex.io/docs
+  description: Incremental data-pipeline engine for agent context. Declarative transforms over code, docs, and streams; only changed chunks re-index, giving agents sub-second fresh context at minimal compute cost.
+  category: retrieval-and-rag
+  github: cocoindex-io/cocoindex
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install cocoindex)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Memory and State (additions 2026-05-04) ----------------
+
+- name: Redis Agent Memory Server
+  url: https://github.com/redis/agent-memory-server
+  docs_url: https://github.com/redis/agent-memory-server/blob/main/README.md
+  description: Memory layer for AI agents backed by Redis. Two-tier working + long-term memory, semantic/keyword/hybrid search, REST and MCP interfaces, and multi-LLM provider support.
+  category: memory-and-state
+  github: redis/agent-memory-server
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install agent-memory-client)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+# ---------------- Agent Frameworks (additions 2026-05-04) ----------------
+
+- name: Flowise
+  url: https://flowiseai.com
+  docs_url: https://docs.flowiseai.com
+  description: Open-source visual builder for LLM agents and workflows. Drag-and-drop Agentflow canvas plus REST API, JS/Python SDK, and CLI for programmatic integration into production applications.
+  category: agent-frameworks
+  github: FlowiseAI/Flowise
+  license: Apache-2.0
+  sdks:
+    - {language: TypeScript (npm install -g flowise)}
+  b2_integration: ""
+  last_verified: 2026-05-04
