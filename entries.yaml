@@ -937,6 +937,18 @@
 
 # ---------------- Observability and Evaluation (additions 2026-05-04b) ----------------
 
+- name: AgentPlane
+  url: https://agentplane.org
+  docs_url: https://agentplane.org/docs
+  description: Open-source Git-native audit layer for coding-agent work. Records task intent, approved plans, verification evidence, finish state, and Agent Change Records inside the repository.
+  category: observability-and-evaluation
+  github: basilisk-labs/agentplane
+  license: MIT
+  sdks:
+    - {language: CLI (npm install -g agentplane)}
+  b2_integration: ""
+  last_verified: 2026-05-12
+
 - name: DeepEval
   url: https://deepeval.com
   docs_url: https://deepeval.com/docs/getting-started
