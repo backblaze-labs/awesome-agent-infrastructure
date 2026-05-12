@@ -434,6 +434,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: BrowserTrace
+  url: https://aaronlab.github.io/browsertrace/
+  docs_url: https://github.com/aaronlab/browsertrace
+  description: Local-first trace viewer for AI browser-agent failures, with screenshots, model I/O, URLs, actions, errors, and public-safe HTML exports.
+  category: observability-and-evaluation
+  github: aaronlab/browsertrace
+  license: MIT
+  sdks:
+    - {language: 'Python (pip install "browsertrace[ui]")'}
+  b2_integration: ""
+  last_verified: 2026-05-12
+
 - name: TruLens
   url: https://github.com/truera/trulens
   docs_url: https://www.trulens.org/docs/
