@@ -22,12 +22,16 @@
   - docs: https://ai.pydantic.dev
 - [AG2](https://ag2.ai): Community-maintained fork of AutoGen 0.2. Multi-agent conversation framework with swarms, group chats, and nested chat patterns.
   - docs: https://docs.ag2.ai/
+- [AgentScope](https://agentscope.io): Python agent framework with an event-driven runtime, human-in-the-loop, sandboxed tool execution, and Agent-as-a-Service REST deployment. v2.0 released May 2026.
+  - docs: https://docs.agentscope.io
 - [DeerFlow](https://github.com/bytedance/deer-flow): ByteDance's open-source super-agent harness built on LangGraph. Orchestrates sub-agents, memory, sandboxes, and skills for long-horizon tasks.
   - docs: https://github.com/bytedance/deer-flow/blob/main/README.md
 - [Flowise](https://flowiseai.com): Open-source visual builder for LLM agents and workflows. Drag-and-drop Agentflow canvas plus REST API, JS/Python SDK, and CLI for programmatic integration into production applications.
   - docs: https://docs.flowiseai.com
 - [Google ADK](https://adk.dev): Google's open-source agent development kit. Build, evaluate, and deploy multi-agent systems; multi-language with Gemini-optimized but model-agnostic.
   - docs: https://adk.dev
+- [Langflow](https://www.langflow.org): Low-code builder for AI agents and RAG applications. Visual canvas with Python escape hatches, deploys flows as REST APIs or MCP servers; 40+ model and vector-store integrations.
+  - docs: https://docs.langflow.org
 - [Langroid](https://langroid.github.io/langroid/): Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency.
   - docs: https://langroid.github.io/langroid/
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT): Multi-agent framework that assigns software-company roles (PM, architect, engineer) to LLMs. Input a requirement, get PRD, design, code, and tests.
@@ -59,12 +63,16 @@
   - docs: https://help.getzep.com/graphiti
 - [Hindsight](https://hindsight.vectorize.io): Open-source agent memory system using biomimetic data structures. Organises memories into world facts, experiences, and mental models; TEMPR retrieval combines semantic, keyword, graph, and temporal search.
   - docs: https://hindsight.vectorize.io/docs
+- [Honcho](https://honcho.dev): Memory infrastructure for stateful agents. Stores messages to per-peer sessions, runs background reasoning to build user representations, and returns curated context via a fast query API.
+  - docs: https://docs.honcho.dev
 - [Puppyone](https://www.puppyone.ai): File system for agents. Connect, govern, version, and share context across agent workflows.
   - docs: https://www.puppyone.ai/doc
 - [Redis Agent Memory Server](https://github.com/redis/agent-memory-server): Memory layer for AI agents backed by Redis. Two-tier working + long-term memory, semantic/keyword/hybrid search, REST and MCP interfaces, and multi-LLM provider support.
   - docs: https://github.com/redis/agent-memory-server/blob/main/README.md
 - [ReMe](https://github.com/agentscope-ai/ReMe): Memory management kit for AI agents. Conversation compaction, long-term file-based and vector memory, semantic search; compresses context by up to 99.5% while retaining critical facts.
   - docs: https://github.com/agentscope-ai/ReMe/blob/main/README.md
+- [Supermemory](https://supermemory.ai): Memory and context API for AI agents. Ingests documents and conversations, extracts facts, builds user profiles, and returns relevant context via hybrid semantic search; SDK and REST interfaces.
+  - docs: https://docs.supermemory.ai
 
 ## Tool Protocols and Servers
 
@@ -79,6 +87,7 @@
   - docs: https://awslabs.github.io/mcp/
 - [Composio](https://composio.dev): Tool-integration SDK for AI agents. 1000+ pre-built tool connectors (GitHub, Slack, Jira, etc.) with managed auth and sandboxed execution.
   - docs: https://docs.composio.dev
+- [Headroom](https://github.com/chopratejas/headroom): Context compression layer for AI agents. Compresses tool outputs, logs, RAG chunks, and files 60-95% before they reach the LLM; runs as a library, proxy, or MCP server with reversible compression.
 - [IBM ContextForge](https://ibm.github.io/mcp-context-forge/latest/): Open-source MCP/A2A/REST gateway and registry. Federates MCP servers, A2A agents, and REST/gRPC APIs behind a single governed endpoint with auth, rate limiting, and OpenTelemetry tracing.
   - docs: https://ibm.github.io/mcp-context-forge/latest/
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports.

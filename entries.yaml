@@ -948,3 +948,69 @@
     - {language: Python (pip install -U deepeval)}
   b2_integration: ""
   last_verified: 2026-05-04
+
+# ---------------- Agent Frameworks (additions 2026-06-01) ----------------
+
+- name: Langflow
+  url: https://www.langflow.org
+  docs_url: https://docs.langflow.org
+  description: Low-code builder for AI agents and RAG applications. Visual canvas with Python escape hatches, deploys flows as REST APIs or MCP servers; 40+ model and vector-store integrations.
+  category: agent-frameworks
+  github: langflow-ai/langflow
+  license: MIT
+  sdks:
+    - {language: Python (pip install langflow)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: AgentScope
+  url: https://agentscope.io
+  docs_url: https://docs.agentscope.io
+  description: Python agent framework with an event-driven runtime, human-in-the-loop, sandboxed tool execution, and Agent-as-a-Service REST deployment. v2.0 released May 2026.
+  category: agent-frameworks
+  github: agentscope-ai/agentscope
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install agentscope)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+# ---------------- Memory and State (additions 2026-06-01) ----------------
+
+- name: Honcho
+  url: https://honcho.dev
+  docs_url: https://docs.honcho.dev
+  description: Memory infrastructure for stateful agents. Stores messages to per-peer sessions, runs background reasoning to build user representations, and returns curated context via a fast query API.
+  category: memory-and-state
+  github: plastic-labs/honcho
+  license: AGPL-3.0
+  sdks:
+    - {language: Python (uv add honcho-ai)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: Supermemory
+  url: https://supermemory.ai
+  docs_url: https://docs.supermemory.ai
+  description: Memory and context API for AI agents. Ingests documents and conversations, extracts facts, builds user profiles, and returns relevant context via hybrid semantic search; SDK and REST interfaces.
+  category: memory-and-state
+  github: supermemoryai/supermemory
+  license: MIT
+  sdks:
+    - {language: TypeScript (npm install @supermemory/sdk)}
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+# ---------------- Tool Protocols and Servers (additions 2026-06-01) ----------------
+
+- name: Headroom
+  url: https://github.com/chopratejas/headroom
+  description: Context compression layer for AI agents. Compresses tool outputs, logs, RAG chunks, and files 60-95% before they reach the LLM; runs as a library, proxy, or MCP server with reversible compression.
+  category: tool-protocols-and-servers
+  github: chopratejas/headroom
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install headroom)}
+  b2_integration: ""
+  last_verified: 2026-06-01
