@@ -88,6 +88,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx)** – Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies. [Docs](https://docs.lunar.dev/mcpx/)
 - **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)** – MCP server exposing n8n's 1,650+ workflow nodes to AI agents. Provides node docs, schema properties, operations, and workflow validation for agents building n8n automations. SDK: TypeScript (npx n8n-mcp)
 
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** – Verifiable trust receipts for Solana AI agents. Cryptographically signed attestations proving agent wallet identity and on-chain trust score; callable via MCP (streamable-http, zero-install). Tools: `score_agent`, `preflight_check` (free); `get_trust_receipt` (HTTP 402 paid). [Docs](https://intel.twzrd.xyz/mcp)
+
 ## Execution Sandboxes
 
 > Secure environments for running agent-generated code, shell commands, and browser sessions.
