@@ -949,6 +949,16 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: ax
+  url: https://github.com/Necmttn/ax
+  docs_url: https://github.com/Necmttn/ax/tree/main/docs
+  description: Local telemetry and recall graph for AI coding agents. Ingests Claude Code, Codex, OpenCode, Cursor, and Pi transcripts with cost/routing analytics, hooks, dashboard, and read-only MCP queries.
+  category: observability-and-evaluation
+  github: Necmttn/ax
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-06-20
+
 # ---------------- Agent Frameworks (additions 2026-06-01) ----------------
 
 - name: Langflow
