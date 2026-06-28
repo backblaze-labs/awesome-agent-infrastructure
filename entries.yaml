@@ -1014,3 +1014,13 @@
     - {language: Python (pip install headroom)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+- name: Hermes Tweet
+  url: https://github.com/Xquik-dev/hermes-tweet
+  docs_url: https://github.com/Xquik-dev/hermes-tweet/blob/master/README.md
+  description: Native Hermes Agent plugin that exposes X/Twitter search, read, and opt-in action tools through a guarded plugin manifest and bundled skills.
+  category: tool-protocols-and-servers
+  github: Xquik-dev/hermes-tweet
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-06-28
