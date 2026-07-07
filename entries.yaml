@@ -1002,6 +1002,18 @@
   b2_integration: ""
   last_verified: 2026-06-01
 
+- name: Tree Ring Memory
+  url: https://github.com/TerminallyLazy/Tree-Ring-Memory
+  docs_url: https://terminallylazy.github.io/Tree-Ring-Memory/
+  description: Local-first memory lifecycle layer for AI agents. Rust CLI with SQLite/FTS recall, forgetting, audit, consolidation, and portable SKILL.md guidance.
+  category: memory-and-state
+  github: TerminallyLazy/Tree-Ring-Memory
+  license: MIT
+  sdks:
+    - {language: Rust CLI (brew install tree-ring)}
+  b2_integration: ""
+  last_verified: 2026-07-07
+
 # ---------------- Tool Protocols and Servers (additions 2026-06-01) ----------------
 
 - name: Headroom
