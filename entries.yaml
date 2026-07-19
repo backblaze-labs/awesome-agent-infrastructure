@@ -271,6 +271,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Xquik MCP Server
+  url: https://docs.xquik.com
+  docs_url: https://docs.xquik.com/mcp/overview
+  description: Streamable HTTP MCP server for X data workflows. Exposes catalog discovery and authenticated API requests for search, monitoring, webhooks, extraction, and confirmation-gated account actions. Not affiliated with X Corp.
+  category: tool-protocols-and-servers
+  github: Xquik-dev/x-twitter-scraper
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-07-18
+
 # ---------------- Execution Sandboxes ----------------
 
 - name: E2B
@@ -527,13 +537,13 @@
 
 - name: Weaviate
   url: https://weaviate.io
-  docs_url: https://weaviate.io/developer/
+  docs_url: https://docs.weaviate.io/weaviate
   description: Vector search with built-in vectorization modules and a schema-aware GraphQL API.
   category: vector-databases
   github: weaviate/weaviate
   license: BSD-3-Clause
   b2_integration: ""
-  last_verified: 2026-04-17
+  last_verified: 2026-07-18
 
 - name: Chroma
   url: https://www.trychroma.com
