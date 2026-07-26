@@ -1014,3 +1014,15 @@
     - {language: Python (pip install headroom)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+# ---------------- Observability and Evaluation (additions 2026-07-26) ----------------
+
+- name: ClawBench
+  url: https://claw-bench.com
+  docs_url: https://github.com/reacher-z/ClawBench
+  description: Open-source benchmark runner for web agents on live websites. Isolated container runs, request-interception scoring, and five-layer traces covering video, screenshots, HTTP traffic, browser actions, and agent messages.
+  category: observability-and-evaluation
+  github: reacher-z/ClawBench
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-07-26
