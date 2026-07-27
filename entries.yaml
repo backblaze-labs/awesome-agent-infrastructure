@@ -446,6 +446,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: ClawBench
+  url: https://claw-bench.com
+  docs_url: https://github.com/reacher-z/ClawBench
+  description: Open-source benchmark framework for browser agents. Runs 283 real-world tasks across 144 live websites in isolated containers and captures request outcomes, browser actions, screenshots, recordings, and agent traces for reproducible evaluation.
+  category: observability-and-evaluation
+  github: reacher-z/ClawBench
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-07-28
+
 # ---------------- Retrieval and RAG ----------------
 
 - name: LlamaIndex
