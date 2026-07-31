@@ -303,6 +303,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Ephemeral Sandbox
+  url: https://ephemeral-sandbox.com
+  docs_url: https://ephemeral-sandbox.com/docs
+  description: Open-source agent sandbox infrastructure that gives parallel coding agents isolated workspaces over one shared project base, with MCP and CLI control plus atomic publication.
+  category: execution-sandboxes
+  github: Ephemeral-AI-Lab/ephemeral-sandbox
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-07-31
+
 - name: Riza
   url: https://riza.io
   docs_url: https://docs.riza.io
