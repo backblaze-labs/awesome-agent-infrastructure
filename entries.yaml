@@ -1014,3 +1014,12 @@
     - {language: Python (pip install headroom)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+# ---------------- Observability and Evaluation (additions 2026-08-14) ----------------
+
+- name: Flowlines
+  url: https://flowlines.ai
+  description: Behavioral observability for production AI agents. Analyzes every session to surface fabricated completions, silent drift, repeat failures, and cohort gaps, then groups them by root cause.
+  category: observability-and-evaluation
+  b2_integration: ""
+  last_verified: 2026-08-14
