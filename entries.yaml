@@ -938,7 +938,7 @@
 - name: SandBase CLI
   url: https://github.com/sandbaseai/cli
   docs_url: https://docs.sandbase.ai
-  description: Apache-2.0 CLI and local MCP bridge that configures 17+ coding agents to discover and execute 2,000+ AI models and APIs through one account.
+  description: Apache-2.0 CLI and local MCP bridge that configures 17+ coding agents to discover and execute 2,000+ AI models through one account.
   category: tool-protocols-and-servers
   github: sandbaseai/cli
   license: Apache-2.0
