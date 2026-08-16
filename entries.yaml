@@ -348,6 +348,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Agent QA
+  url: https://github.com/vostride/agent-qa
+  docs_url: https://vostride.com/docs/agent-qa
+  description: TypeScript QA agent for natural-language web and mobile tests, persistent test memory, self-healing flows, and MCP-driven execution.
+  category: browser-and-computer-use
+  github: vostride/agent-qa
+  license: FSL-1.1-ALv2
+  sdks:
+    - {language: Node (npm install agent-qa)}
+  b2_integration: ""
+  last_verified: 2026-08-16
+
 - name: Playwright MCP
   url: https://github.com/microsoft/playwright-mcp
   description: Microsoft's official MCP server for Playwright. Gives any MCP-aware agent a controllable browser.
