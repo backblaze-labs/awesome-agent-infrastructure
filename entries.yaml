@@ -325,8 +325,8 @@
 
 - name: SandBase Harness
   url: https://github.com/sandbaseai/sandbase-harness
-  docs_url: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/README.md
-  description: Self-hosted agent runtime with persistent sessions, MCP tool governance, credentials, audit/replay, and Docker/Kubernetes sandbox providers.
+  docs_url: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/api.md
+  description: Local-first, self-hosted agent runtime with persistent sessions, MCP toolsets, memory, credential vaults, approvals, audit/replay, and pluggable local, Docker, Kubernetes, and worker sandboxes.
   category: execution-sandboxes
   github: sandbaseai/sandbase-harness
   license: Apache-2.0
