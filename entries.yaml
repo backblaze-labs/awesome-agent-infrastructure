@@ -1014,3 +1014,17 @@
     - {language: Python (pip install headroom)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+# ---------------- Execution Sandboxes (addition 2026-08-31) ----------------
+
+- name: SandBase Harness
+  url: https://github.com/sandbaseai/sandbase-harness
+  docs_url: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/installation.md
+  description: Local-first TypeScript agent runtime and MCP bridge with persistent sessions, governed tool access, approvals, audit/replay, and selectable Local, Docker, Kubernetes, and worker execution backends. Isolation depends on the selected backend and deployment configuration.
+  category: execution-sandboxes
+  github: sandbaseai/sandbase-harness
+  license: Apache-2.0
+  sdks:
+    - {language: TypeScript}
+  b2_integration: ""
+  last_verified: 2026-08-31
