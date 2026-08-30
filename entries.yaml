@@ -100,6 +100,15 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: SandBase Harness
+  url: https://github.com/sandbaseai/sandbase-harness
+  docs_url: https://github.com/sandbaseai/sandbase-harness/tree/main/docs
+  description: Local-first TypeScript runtime for persistent and auditable AI agent sessions, with sandboxed tools, MCP integration, memory, credentials, audit logs, replay, and local or self-hosted deployment.
+  category: agent-frameworks
+  github: sandbaseai/sandbase-harness
+  license: Apache-2.0
+  last_verified: 2026-08-30
+
 - name: Google ADK
   url: https://adk.dev
   docs_url: https://adk.dev
