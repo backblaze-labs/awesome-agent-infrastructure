@@ -323,6 +323,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: SandBase Harness
+  url: https://github.com/sandbaseai/sandbase-harness
+  docs_url: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/mcp-install.md
+  description: Local-first agent runtime and MCP bridge for auditable sessions, sandboxed execution, approvals, and Docker/Kubernetes-backed workflows.
+  category: execution-sandboxes
+  github: sandbaseai/sandbase-harness
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-08-31
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
