@@ -323,6 +323,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: SandBase Harness
+  url: https://github.com/sandbaseai/sandbase-harness
+  docs_url: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/README.md
+  description: Self-hosted agent runtime with persistent sessions, MCP tool governance, credentials, audit/replay, and Docker/Kubernetes sandbox providers.
+  category: execution-sandboxes
+  github: sandbaseai/sandbase-harness
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-08-30
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
