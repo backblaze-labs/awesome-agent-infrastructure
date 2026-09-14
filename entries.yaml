@@ -1014,3 +1014,12 @@
     - {language: Python (pip install headroom)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+- name: Gram
+  url: https://github.com/speakeasy-api/gram
+  description: Open-source control plane for connecting agents and MCPs with policy enforcement, granular access control, and event observability.
+  category: tool-protocols-and-servers
+  github: speakeasy-api/gram
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-09-14
