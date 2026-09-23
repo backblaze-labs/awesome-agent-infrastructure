@@ -61,6 +61,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Long-term memory, session state, and knowledge-retention layers for agents.
 
+- **[Agent Commons](https://github.com/MrRex168/agent-commons)** — Open-source continuity layer for persistent AI agents. Preserves identity, memory, state, and relationships across model, runtime, machine, and server changes. Supports signed portable state, cross-server migration, sovereign identity, A2A discovery, and MCP/REST interfaces. MIT licensed.
 - **[Mem0](https://mem0.ai)** – Memory layer for AI agents. Personalization through user/agent/session memories with semantic recall. [Docs](https://docs.mem0.ai) | SDK: Python (pip install mem0ai), Node (npm install mem0ai)
 - **[Letta](https://www.letta.com)** – Open-source agent server focused on long-term memory. Successor to MemGPT; agents are first-class stateful services. [Docs](https://docs.letta.com) | SDK: Python (pip install letta-client)
 - **[Zep](https://www.getzep.com)** – Memory and context platform for LLM apps. Knowledge-graph-backed user memory with temporal reasoning. [Docs](https://help.getzep.com)
