@@ -89,6 +89,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** – Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports. SDK: TypeScript (npx @modelcontextprotocol/inspector)
 - **[MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx)** – Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies. [Docs](https://docs.lunar.dev/mcpx/)
 - **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)** – MCP server exposing n8n's 1,650+ workflow nodes to AI agents. Provides node docs, schema properties, operations, and workflow validation for agents building n8n automations. SDK: TypeScript (npx n8n-mcp)
+- **[Statsnet MCP](https://github.com/usenetstate/statsnet-mcp)** – Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`.
 
 ## Execution Sandboxes
 
