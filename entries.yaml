@@ -940,6 +940,14 @@
 - name: DeepEval
   url: https://deepeval.com
   docs_url: https://deepeval.com/docs/getting-started
+  description: Open-source LLM and agent evaluation framework. Pytest-native with 50+ built-in metrics (hallucination, faithfulness, role adherence), multi-turn eval support, and CI/CD integration.
+  category: observability-and-evaluation
+  github: confident-ai/deepeval
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install -U deepeval)}
+  b2_integration: ""
+  last_verified: 2026-05-04
 - name: OpenClaw Monitor
   url: https://github.com/flik2002/openclaw-monitor
   docs_url: https://github.com/flik2002/openclaw-monitor#readme
@@ -949,14 +957,6 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-10-04
-  description: Open-source LLM and agent evaluation framework. Pytest-native with 50+ built-in metrics (hallucination, faithfulness, role adherence), multi-turn eval support, and CI/CD integration.
-  category: observability-and-evaluation
-  github: confident-ai/deepeval
-  license: Apache-2.0
-  sdks:
-    - {language: Python (pip install -U deepeval)}
-  b2_integration: ""
-  last_verified: 2026-05-04
 
 # ---------------- Agent Frameworks (additions 2026-06-01) ----------------
 
