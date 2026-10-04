@@ -940,6 +940,15 @@
 - name: DeepEval
   url: https://deepeval.com
   docs_url: https://deepeval.com/docs/getting-started
+- name: OpenClaw Monitor
+  url: https://github.com/flik2002/openclaw-monitor
+  docs_url: https://github.com/flik2002/openclaw-monitor#readme
+  description: Open-source monitoring dashboard for OpenClaw AI agents. Tracks token usage, sessions and weekly trends from local agent data.
+  category: observability-and-evaluation
+  github: flik2002/openclaw-monitor
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-10-04
   description: Open-source LLM and agent evaluation framework. Pytest-native with 50+ built-in metrics (hallucination, faithfulness, role adherence), multi-turn eval support, and CI/CD integration.
   category: observability-and-evaluation
   github: confident-ai/deepeval
