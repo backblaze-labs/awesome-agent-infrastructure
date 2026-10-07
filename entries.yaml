@@ -899,16 +899,16 @@
 
 # ---------------- Agent Frameworks (additions 2026-05-04b) ----------------
 
-- name: open-multi-agent
-  url: https://github.com/JackChen-me/open-multi-agent
-  description: TypeScript multi-agent orchestration with automatic goal-to-DAG decomposition, parallel task execution, MCP integration, and live tracing. Three runtime dependencies; 10+ LLM providers supported.
+- name: Open Multi-Agent
+  url: https://github.com/open-multi-agent/open-multi-agent
+  description: TypeScript-native multi-agent orchestration that plans task DAGs from goals at runtime and runs them with approval gates, tracing, evaluation, checkpoints, and resume support in your own environment.
   category: agent-frameworks
-  github: JackChen-me/open-multi-agent
+  github: open-multi-agent/open-multi-agent
   license: MIT
   sdks:
-    - {language: TypeScript (npm install @jackchen_me/open-multi-agent)}
+    - {language: TypeScript (npm install @open-multi-agent/core)}
   b2_integration: ""
-  last_verified: 2026-05-04
+  last_verified: 2026-08-10
 
 # ---------------- Tool Protocols and Servers (additions 2026-05-04b) ----------------
 
