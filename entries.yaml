@@ -1014,3 +1014,15 @@
     - {language: Python (pip install headroom)}
   b2_integration: ""
   last_verified: 2026-06-01
+
+# ---------------- Tool Protocols and Servers (additions 2026-09-15) ----------------
+
+- name: Bifrost
+  url: https://github.com/maximhq/bifrost
+  docs_url: https://docs.getbifrost.ai/overview
+  description: Self-hosted LLM and MCP gateway with OpenAI-compatible APIs, multi-provider routing, fallbacks, virtual keys, tool filtering, and OpenTelemetry observability.
+  category: tool-protocols-and-servers
+  github: maximhq/bifrost
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-09-15
