@@ -271,6 +271,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Screenpipe MCP
+  url: https://screenpipe.com
+  docs_url: https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md
+  description: MCP server for querying locally captured screen text and audio history as agent context for recall, meeting notes, and work summaries. Requires a running Screenpipe recorder and local API key; configured cloud features can transmit context off-device.
+  category: tool-protocols-and-servers
+  github: screenpipe/screenpipe
+  license: Screenpipe Commercial License (source-available)
+  b2_integration: ""
+  last_verified: 2026-09-22
+
 # ---------------- Execution Sandboxes ----------------
 
 - name: E2B
