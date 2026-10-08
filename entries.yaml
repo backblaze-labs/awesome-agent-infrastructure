@@ -138,6 +138,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Tale
+  url: https://tale.dev
+  docs_url: https://docs.tale.dev/platform/projects/project-agents
+  description: Open-source workspace for coordinating reusable coding agents through assigned tasks, persistent sandbox runs, permissioned delegation, and reports and deliverables returned for review.
+  category: agent-frameworks
+  github: tale-project/tale
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-10-08
+
 # ---------------- Memory and State ----------------
 
 - name: Letta
