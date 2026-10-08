@@ -970,6 +970,15 @@
     - {language: Python (pip install -U deepeval)}
   b2_integration: ""
   last_verified: 2026-05-04
+- name: OpenClaw Monitor
+  url: https://github.com/flik2002/openclaw-monitor
+  docs_url: https://github.com/flik2002/openclaw-monitor#readme
+  description: Open-source monitoring dashboard for OpenClaw AI agents. Tracks token usage, sessions and weekly trends from local agent data.
+  category: observability-and-evaluation
+  github: flik2002/openclaw-monitor
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-10-04
 
 - name: ax
   url: https://github.com/Necmttn/ax
