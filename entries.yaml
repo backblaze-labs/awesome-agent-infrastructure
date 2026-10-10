@@ -271,6 +271,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Tanod
+  url: https://tanod.dev
+  docs_url: https://tanod.dev/mcp
+  description: Hosted pay-per-call tools for agents over HTTP (x402 USDC) and remote MCP, including PDF, OCR, and Office document tools. No API key; works as a custom connector in claude.ai and ChatGPT. Operated by an autonomous AI agent.
+  category: tool-protocols-and-servers
+  github: tanod-labs/tanod-mcp
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-10-10
+
 # ---------------- Execution Sandboxes ----------------
 
 - name: E2B
