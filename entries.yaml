@@ -375,6 +375,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: rea-captcha
+  url: https://github.com/masakaai/rea-captcha
+  docs_url: https://github.com/masakaai/rea-captcha#readme
+  description: Local SDK and MCP controller for browser verification flows. Preserves caller-owned sessions and requires fresh evidence before resuming; automated actions are scoped to official provider test keys and owned flows.
+  category: browser-and-computer-use
+  github: masakaai/rea-captcha
+  license: MIT
+  sdks:
+    - {language: TypeScript (npm install rea-captcha)}
+  b2_integration: ""
+  last_verified: 2026-10-15
+
 # ---------------- Observability and Evaluation ----------------
 
 - name: Langfuse
