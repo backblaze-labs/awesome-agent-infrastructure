@@ -378,7 +378,7 @@
 - name: rea-captcha
   url: https://github.com/masakaai/rea-captcha
   docs_url: https://github.com/masakaai/rea-captcha#readme
-  description: Local SDK and MCP controller for browser verification flows. Preserves caller-owned sessions and requires fresh evidence before resuming; automated actions are scoped to official provider test keys and owned flows.
+  description: Handles browser-agent tasks interrupted by CAPTCHA while keeping the caller-owned session through an authorized test action or human handoff and requiring fresh evidence before resuming.
   category: browser-and-computer-use
   github: masakaai/rea-captcha
   license: MIT
