@@ -1201,3 +1201,16 @@
     - {language: Python CLI (pip install yylo-ledger)}
   b2_integration: ""
   last_verified: 2026-10-16
+# ---------------- Tool Protocols and Servers (additions 2026-10-18) ----------------
+
+- name: Aident Loadout
+  url: https://aident.ai
+  docs_url: https://docs.aident.ai/loadout/mcp
+  description: Hosted remote MCP server (Streamable HTTP, OAuth) that lets agents search app integrations and 400+ Skills by intent and run actions, with credentials kept in a vault, cost preflight, and an audit log of every call.
+  category: tool-protocols-and-servers
+  github: Aident-AI/aident-skill
+  license: MIT
+  sdks:
+    - {language: TypeScript CLI (npm install -g @aident-ai/cli)}
+  b2_integration: ""
+  last_verified: 2026-10-18
