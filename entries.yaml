@@ -333,6 +333,14 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: epho
+  url: https://epho.io
+  docs_url: https://epho.io/docs
+  description: Hosted sandboxes that run Claude Code, Codex or OpenCode against your repos. One HTTP endpoint starts the run; events stream back over SSE or arrive by webhook.
+  category: execution-sandboxes
+  b2_integration: ""
+  last_verified: 2026-10-20
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
