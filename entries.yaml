@@ -1070,3 +1070,18 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-15
+
+# ---------------- Tool Protocols and Servers (additions 2026-10-23) ----------------
+
+- name: deed.page
+  url: https://deed.page
+  docs_url: https://deed.page/docs
+  description: Static hosting for agents. Publishes an HTML file or static folder to a permanent public URL with one HTTP request and no account, over REST or a remote MCP server; updates in place with an owner token.
+  category: tool-protocols-and-servers
+  github: f-o-x11/deed-page-skill
+  license: MIT
+  sdks:
+    - {language: REST API (curl -T index.html)}
+    - {language: Remote MCP (deed.page/mcp)}
+  b2_integration: ""
+  last_verified: 2026-10-23
