@@ -1070,3 +1070,13 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-15
+
+- name: Docsy
+  url: https://docsy.remcp.site
+  docs_url: https://github.com/getremcp/docsy-plugin/blob/main/docs/GETTING-STARTED.md
+  description: Hosted OAuth 2.1 MCP for querying version-specific public developer documentation with original source links. Five read-only tools; the MIT plugin is public while the hosted backend is proprietary.
+  category: tool-protocols-and-servers
+  github: getremcp/docsy-plugin
+  license: "MIT (public integration only; hosted service proprietary)"
+  b2_integration: ""
+  last_verified: 2026-10-25
