@@ -377,6 +377,15 @@
 
 # ---------------- Observability and Evaluation ----------------
 
+- name: ReMCP
+  url: https://remcp.site
+  docs_url: https://github.com/getremcp/remcp/blob/main/README.md
+  description: OAuth MCP for file, terminal, browser and desktop actions on explicitly user-paired computers. Operations may change device state; MIT runtime is public while the managed relay is proprietary.
+  category: browser-and-computer-use
+  github: getremcp/remcp
+  license: "MIT (public runtime; hosted relay proprietary)"
+  b2_integration: ""
+  last_verified: 2026-10-25
 - name: Langfuse
   url: https://langfuse.com
   docs_url: https://langfuse.com/docs
