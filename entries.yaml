@@ -1070,3 +1070,14 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-15
+
+- name: Speakeasy control plane
+  url: https://www.speakeasy.com/
+  docs_url: https://www.speakeasy.com/docs/ai-control-plane/mcp-gateway
+  description: MCP gateway for exposing agent tools with identity-based permissions, per-action security policies, and tool-call audit logs.
+  category: tool-protocols-and-servers
+  github: speakeasy-api/gram
+  license: AGPL-3.0
+  sdks: []
+  b2_integration: ""
+  last_verified: 2026-10-26
