@@ -1438,3 +1438,12 @@
     - {language: Python}
   b2_integration: ""
   last_verified: 2026-11-17
+- name: Speakeasy Gram
+  url: https://github.com/speakeasy-api/gram
+  docs_url: https://www.speakeasy.com/docs/ai-control-plane/mcp-gateway
+  description: Open-source MCP gateway that exposes agent tools with identity-based permissions, per-action security policies, and tool-call audit logs.
+  category: tool-protocols-and-servers
+  github: speakeasy-api/gram
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-10-26
