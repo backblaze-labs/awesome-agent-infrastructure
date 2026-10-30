@@ -1308,3 +1308,12 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-10-25
+# ---------------- Browser and Computer Use (additions 2026-10-16) ----------------
+
+- name: CurlShot
+  url: https://curlshot.com
+  docs_url: https://curlshot.com/docs
+  description: Hosted screenshot API and remote MCP server that lets agents see rendered web pages. Returns an image, PDF, or scrolling video, with full-page capture, device presets, dark mode, and single-element capture by CSS selector.
+  category: browser-and-computer-use
+  b2_integration: ""
+  last_verified: 2026-10-16
