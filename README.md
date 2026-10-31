@@ -126,6 +126,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[MLflow](https://mlflow.org)** – Open-source AI engineering platform with LLM/agent tracing built on OpenTelemetry, 50+ eval metrics, prompt management, and an AI gateway. Supports 60+ agent frameworks. [Docs](https://mlflow.org/docs/latest/llms/tracing/index.html) | SDK: Python (pip install mlflow)
 - **[OpenLLMetry](https://github.com/traceloop/openllmetry)** – OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs. SDK: Python (pip install traceloop-sdk), TypeScript (npm install @traceloop/node-server-sdk)
 - **[TruLens](https://github.com/truera/trulens)** – Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard. [Docs](https://www.trulens.org/docs/) | SDK: Python (pip install trulens)
+- **[TapVow](https://github.com/theluckystrike/tapvow)** – Open-source local gateway that gives each AI agent a signed spending limit: it refuses over-budget LLM and x402 calls before they reach the provider and records a receipt for every call. Drops in as `ANTHROPIC_BASE_URL` / `OPENAI_BASE_URL` for Claude Code, OpenCode, and OpenAI SDK agents. [Docs](https://github.com/theluckystrike/tapvow#readme) | CLI: build from source (Node 22.13+)
 
 ## Retrieval and RAG
 
