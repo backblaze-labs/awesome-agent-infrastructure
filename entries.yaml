@@ -230,6 +230,16 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-09-25
+- name: SoloPup Memory
+  url: https://github.com/OakcoderX/solopup-memory
+  docs_url: https://github.com/OakcoderX/solopup-memory/blob/main/README.en.md
+  description: Native DeepSeek Harness public-beta text memory with source references, project scope, conditions and correction history. Lexical recall may miss paraphrases; requires Node >=24.9 and DSH >=0.2.1-rc.0 <0.3.0.
+  category: memory-and-state
+  github: OakcoderX/solopup-memory
+  license: MIT
+  sdks: []
+  b2_integration: ""
+  last_verified: 2026-11-01
 
 # ---------------- Tool Protocols and Servers ----------------
 
