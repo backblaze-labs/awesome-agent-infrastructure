@@ -1070,3 +1070,13 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-15
+
+# ---------------- Memory and State (additions 2026-11-02) ----------------
+
+- name: Concord
+  url: https://getconcord.ai
+  docs_url: https://github.com/Get-Concord-AI/concord-mcp#readme
+  description: MCP server and CLI that lets Claude Code, Codex, Cursor, Gemini CLI and other coding agents message each other, claim work, share task memory and hand off in one shared wor
+
+
+
