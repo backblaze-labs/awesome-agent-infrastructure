@@ -981,6 +981,18 @@
   b2_integration: ""
   last_verified: 2026-06-20
 
+- name: Spend Brake
+  url: https://spendbrake.dev
+  docs_url: https://docs.spendbrake.dev
+  description: Self-hostable egress proxy that prices each paid API call an agent makes (search, maps, SMS, custom APIs) and refuses it with 402 once a hard dollar cap per key, agent or session would be crossed. Loop detection, kill switch, Prometheus metrics and OpenTelemetry spans.
+  category: observability-and-evaluation
+  github: KIvanow/spend-brake
+  license: Apache-2.0
+  sdks:
+    - {language: CLI (npx @spend-brake/cli)}
+  b2_integration: ""
+  last_verified: 2026-11-06
+
 # ---------------- Agent Frameworks (additions 2026-06-01) ----------------
 
 - name: Langflow
