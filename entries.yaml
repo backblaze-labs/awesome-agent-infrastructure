@@ -1070,3 +1070,15 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-15
+
+- name: BrewPage MCP
+  url: https://brewpage.app
+  docs_url: https://kochetkov-ma.github.io/brewpage-openapi/
+  description: MCP server and REST API that let agents publish HTML pages, Markdown, JSON, key-value data and files to shareable HTTPS links without an account or API key. Hosted Streamable HTTP endpoint at https://brewpage.app/mcp; content is temporary (expires).
+  category: tool-protocols-and-servers
+  github: kochetkov-ma/brewpage-openapi
+  license: Apache-2.0
+  sdks:
+    - {language: TypeScript (npx -y brewpage-mcp)}
+  b2_integration: ""
+  last_verified: 2026-11-07
