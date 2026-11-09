@@ -423,6 +423,14 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Cloudbrowser
+  url: https://cloudbrowser.tv
+  docs_url: https://cloudbrowser.tv/docs
+  description: Persistent remote Chrome for AI agent workflows. Isolated browser profiles connect through scoped CDP links; pause and resume preserve the browser profile, and Live View lets operators inspect the full desktop.
+  category: browser-and-computer-use
+  b2_integration: ""
+  last_verified: 2026-11-05
+
 # ---------------- Observability and Evaluation ----------------
 
 - name: ReMCP
