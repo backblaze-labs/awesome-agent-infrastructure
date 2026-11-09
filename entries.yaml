@@ -197,6 +197,21 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: grite
+  url: https://neullabs.com/grite
+  docs_url: https://docs.neullabs.com/grite
+  description: Git-backed issue tracker for AI coding agents. CRDT-merged event log in `refs/grite/wal` syncs via `git push`/`fetch`; no server or database required. Stable `--json` output, `AGENTS.md` auto-generation, and `grite install-skill` for Claude Code.
+  category: memory-and-state
+  github: neul-labs/grite
+  license: MIT
+  sdks:
+    - {language: Rust (cargo install grite)}
+    - {language: Homebrew (brew install neul-labs/tap/grite)}
+    - {language: npm (npm i -g grite-cli)}
+    - {language: pip (pip install grite-cli)}
+  b2_integration: ""
+  last_verified: 2026-06-05
+
 # ---------------- Tool Protocols and Servers ----------------
 
 - name: Anthropic Model Context Protocol
