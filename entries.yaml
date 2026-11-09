@@ -1235,3 +1235,13 @@
     - {language: TypeScript (npx -y brewpage-mcp)}
   b2_integration: ""
   last_verified: 2026-11-07
+
+- name: Agent Swarm
+  url: https://www.agent-swarm.dev
+  docs_url: https://docs.agent-swarm.dev
+  description: Self-hosted runtime where a lead agent turns goals into tasks and routes them to workers in isolated containers with shared memory and review gates.
+  category: agent-frameworks
+  github: desplega-ai/agent-swarm
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-03
