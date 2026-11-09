@@ -138,6 +138,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Elflodge
+  url: https://elflodge.com
+  docs_url: https://github.com/elflodge/elflodge#readme
+  description: Self-hosted runtime for batch automation with unattended Pi agents. Runs parallel jobs in sandboxes without a dedicated container per job, with a job API, structured results, and durable recovery.
+  category: agent-frameworks
+  github: elflodge/elflodge
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-08
+
 # ---------------- Memory and State ----------------
 
 - name: Letta
