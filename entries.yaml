@@ -1276,3 +1276,13 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-11-09
+
+- name: kc-agent (KubeStellar Console)
+  url: https://github.com/kubestellar/console
+  docs_url: https://github.com/kubestellar/console#kc-agent-bridge-self-hosted-console-to-your-clusters
+  description: MCP bridge that exposes multi-cluster Kubernetes resources (pods, deployments, namespaces, events, Helm releases) as MCP tools so MCP-compatible agents can query live fleet data. Standalone HTTP/WS daemon; no cluster-side install.
+  category: tool-protocols-and-servers
+  github: kubestellar/console
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-11-09
