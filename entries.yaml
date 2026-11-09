@@ -141,7 +141,7 @@
 - name: Elflodge
   url: https://elflodge.com
   docs_url: https://github.com/elflodge/elflodge#readme
-  description: Self-hosted runtime for unattended Pi agents, running parallel jobs without a dedicated container per job, with a job API, batches, structured results, and durable recovery.
+  description: Self-hosted runtime for batch automation with unattended Pi agents. Runs parallel jobs in sandboxes without a dedicated container per job, with a job API, structured results, and durable recovery.
   category: agent-frameworks
   github: elflodge/elflodge
   license: MIT
