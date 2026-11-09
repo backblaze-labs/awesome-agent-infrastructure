@@ -61,6 +61,8 @@
   - docs: https://docs.letta.com
 - [Zep](https://www.getzep.com): Memory and context platform for LLM apps. Knowledge-graph-backed user memory with temporal reasoning.
   - docs: https://help.getzep.com
+- [Agent Commons](https://github.com/MrRex168/agent-commons): Open-source continuity layer for persistent AI agents. Preserves identity, memory, state, and relationships across model, runtime, and server changes, with signed portable state, A2A discovery, and MCP/REST interfaces.
+  - docs: https://github.com/MrRex168/agent-commons#readme
 - [Cognee](https://www.cognee.ai): Knowledge engine for agent memory. ECL pipeline ingests any data into a hybrid vector + knowledge graph for structured, traceable recall.
   - docs: https://docs.cognee.ai
 - [Graphiti](https://github.com/getzep/graphiti): Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval.
@@ -110,6 +112,8 @@
 - [Headroom](https://github.com/chopratejas/headroom): Context compression layer for AI agents. Compresses tool outputs, logs, RAG chunks, and files 60-95% before they reach the LLM; runs as a library, proxy, or MCP server with reversible compression.
 - [IBM ContextForge](https://ibm.github.io/mcp-context-forge/latest/): Open-source MCP/A2A/REST gateway and registry. Federates MCP servers, A2A agents, and REST/gRPC APIs behind a single governed endpoint with auth, rate limiting, and OpenTelemetry tracing.
   - docs: https://ibm.github.io/mcp-context-forge/latest/
+- [kc-agent (KubeStellar Console)](https://github.com/kubestellar/console): MCP bridge that exposes multi-cluster Kubernetes resources (pods, deployments, namespaces, events, Helm releases) as MCP tools so MCP-compatible agents can query live fleet data. Standalone HTTP/WS daemon; no cluster-side install.
+  - docs: https://github.com/kubestellar/console#kc-agent-bridge-self-hosted-console-to-your-clusters
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports.
 - [MCPX](https://github.com/TheLunarCompany/lunar/tree/main/mcpx): Open-source MCP gateway and aggregator. Consolidates multiple MCP servers behind a single governed entry point with rate limiting and traffic policies.
   - docs: https://docs.lunar.dev/mcpx/
@@ -166,6 +170,8 @@
   - docs: https://github.com/Necmttn/ax/tree/main/docs
 - [BrowserTrace](https://aaronlab.github.io/browsertrace/): Local-first trace viewer for AI browser-agent failures, with screenshots, model I/O, URLs, actions, errors, and public-safe HTML exports.
   - docs: https://github.com/aaronlab/browsertrace
+- [ClawBench](https://claw-bench.com): Open-source benchmark runner for web agents on live websites. Isolated container runs, request-interception scoring, and five-layer traces covering video, screenshots, HTTP traffic, browser actions, and agent messages.
+  - docs: https://github.com/TIGER-AI-Lab/ClawBench
 - [DeepEval](https://deepeval.com): Open-source LLM and agent evaluation framework. Pytest-native with 50+ built-in metrics (hallucination, faithfulness, role adherence), multi-turn eval support, and CI/CD integration.
   - docs: https://deepeval.com/docs/getting-started
 - [Laminar](https://laminar.sh): Open-source observability platform purpose-built for AI agents. OTel-native tracing, step-level replay/rerun, Signals pattern extraction across traces, evals, and self-hostable via Docker.
@@ -181,6 +187,8 @@
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based instrumentation for LLM apps. Drop-in tracing for OpenAI, Anthropic, LangChain, LlamaIndex, and major vector DBs.
 - [Spend Brake](https://spendbrake.dev): Self-hostable egress proxy that prices each paid API call an agent makes (search, maps, SMS, custom APIs) and refuses it with 402 once a hard dollar cap per key, agent or session would be crossed. Loop detection, kill switch, Prometheus metrics and OpenTelemetry spans.
   - docs: https://docs.spendbrake.dev
+- [TapVow](https://github.com/theluckystrike/tapvow): Open-source local gateway that gives each AI agent a signed spending limit. Refuses over-budget LLM and x402 calls before they reach the provider and records a receipt for every call. Drops in via ANTHROPIC_BASE_URL / OPENAI_BASE_URL.
+  - docs: https://github.com/theluckystrike/tapvow#readme
 - [TruLens](https://github.com/truera/trulens): Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard.
   - docs: https://www.trulens.org/docs/
 
