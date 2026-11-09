@@ -1266,3 +1266,13 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-11-09
+
+- name: Agent Commons
+  url: https://github.com/MrRex168/agent-commons
+  docs_url: https://github.com/MrRex168/agent-commons#readme
+  description: Open-source continuity layer for persistent AI agents. Preserves identity, memory, state, and relationships across model, runtime, and server changes, with signed portable state, A2A discovery, and MCP/REST interfaces.
+  category: memory-and-state
+  github: MrRex168/agent-commons
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-09
