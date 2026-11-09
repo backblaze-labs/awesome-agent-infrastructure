@@ -311,6 +311,19 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Lizard Sandboxes
+  url: https://lizard.build/sandboxes
+  docs_url: https://lizard.build/docs/sandboxes/
+  description: Managed sandboxes for agent code with a Firecracker microVM runtime, snapshots, live forks, and TypeScript/Python SDKs.
+  category: execution-sandboxes
+  github: lizard-build/lizard-sdk
+  license: Other
+  sdks:
+    - {language: "TypeScript/JavaScript (npm install @lizard-build/sdk)"}
+    - {language: "Python (pip install lizard-sdk)"}
+  b2_integration: ""
+  last_verified: 2026-10-14
+
 - name: Modal Sandboxes
   url: https://modal.com/docs/guide/sandbox
   description: Serverless sandbox primitive inside Modal. Arbitrary container execution, ephemeral filesystems, strict network policies.
