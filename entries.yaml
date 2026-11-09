@@ -138,6 +138,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Elflodge
+  url: https://elflodge.com
+  docs_url: https://github.com/elflodge/elflodge#readme
+  description: Self-hosted runtime for batch automation with unattended Pi agents. Runs parallel jobs in sandboxes without a dedicated container per job, with a job API, structured results, and durable recovery.
+  category: agent-frameworks
+  github: elflodge/elflodge
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-08
+
 # ---------------- Memory and State ----------------
 
 - name: Letta
@@ -196,6 +206,21 @@
   license: Other
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: grite
+  url: https://neullabs.com/grite
+  docs_url: https://docs.neullabs.com/grite
+  description: Git-backed issue tracker for AI coding agents. CRDT-merged event log in `refs/grite/wal` syncs via `git push`/`fetch`; no server or database required. Stable `--json` output, `AGENTS.md` auto-generation, and `grite install-skill` for Claude Code.
+  category: memory-and-state
+  github: neul-labs/grite
+  license: MIT
+  sdks:
+    - {language: Rust (cargo install grite)}
+    - {language: Homebrew (brew install neul-labs/tap/grite)}
+    - {language: npm (npm i -g grite-cli)}
+    - {language: pip (pip install grite-cli)}
+  b2_integration: ""
+  last_verified: 2026-06-05
 
 # ---------------- Tool Protocols and Servers ----------------
 
@@ -271,6 +296,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Screenpipe MCP
+  url: https://screenpipe.com
+  docs_url: https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md
+  description: MCP server for querying locally captured screen text and audio history as agent context for recall, meeting notes, and work summaries. Requires a running Screenpipe recorder and local API key; configured cloud features can transmit context off-device.
+  category: tool-protocols-and-servers
+  github: screenpipe/screenpipe
+  license: Screenpipe Commercial License (source-available)
+  b2_integration: ""
+  last_verified: 2026-09-22
+
 # ---------------- Execution Sandboxes ----------------
 
 - name: E2B
@@ -285,6 +320,19 @@
     - {language: JS (npm install @e2b/code-interpreter)}
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: Lizard Sandboxes
+  url: https://lizard.build/sandboxes
+  docs_url: https://lizard.build/docs/sandboxes/
+  description: Managed sandboxes for agent code with a Firecracker microVM runtime, snapshots, live forks, and TypeScript/Python SDKs.
+  category: execution-sandboxes
+  github: lizard-build/lizard-sdk
+  license: Other
+  sdks:
+    - {language: "TypeScript/JavaScript (npm install @lizard-build/sdk)"}
+    - {language: "Python (pip install lizard-sdk)"}
+  b2_integration: ""
+  last_verified: 2026-10-14
 
 - name: Modal Sandboxes
   url: https://modal.com/docs/guide/sandbox
@@ -333,6 +381,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: SandBase Harness
+  url: https://github.com/sandbaseai/sandbase-harness
+  docs_url: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/mcp-install.md
+  description: Local-first agent runtime and MCP bridge for auditable sessions, sandboxed execution, approvals, and Docker/Kubernetes-backed workflows.
+  category: execution-sandboxes
+  github: sandbaseai/sandbase-harness
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-08-31
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
@@ -375,8 +433,25 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Cloudbrowser
+  url: https://cloudbrowser.tv
+  docs_url: https://cloudbrowser.tv/docs
+  description: Persistent remote Chrome for AI agent workflows. Isolated browser profiles connect through scoped CDP links; pause and resume preserve the browser profile, and Live View lets operators inspect the full desktop.
+  category: browser-and-computer-use
+  b2_integration: ""
+  last_verified: 2026-11-05
+
 # ---------------- Observability and Evaluation ----------------
 
+- name: ReMCP
+  url: https://remcp.site
+  docs_url: https://github.com/getremcp/remcp/blob/main/README.md
+  description: OAuth MCP for file, terminal, browser and desktop actions on explicitly user-paired computers. Operations may change device state; MIT runtime is public while the managed relay is proprietary.
+  category: browser-and-computer-use
+  github: getremcp/remcp
+  license: "MIT (public runtime; hosted relay proprietary)"
+  b2_integration: ""
+  last_verified: 2026-10-25
 - name: Langfuse
   url: https://langfuse.com
   docs_url: https://langfuse.com/docs
@@ -443,6 +518,18 @@
     - {language: TypeScript (npm install @traceloop/node-server-sdk)}
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: BrowserTrace
+  url: https://aaronlab.github.io/browsertrace/
+  docs_url: https://github.com/aaronlab/browsertrace
+  description: Local-first trace viewer for AI browser-agent failures, with screenshots, model I/O, URLs, actions, errors, and public-safe HTML exports.
+  category: observability-and-evaluation
+  github: aaronlab/browsertrace
+  license: MIT
+  sdks:
+    - {language: 'Python (pip install "browsertrace[ui]")'}
+  b2_integration: ""
+  last_verified: 2026-05-12
 
 - name: TruLens
   url: https://github.com/truera/trulens
@@ -970,6 +1057,15 @@
     - {language: Python (pip install -U deepeval)}
   b2_integration: ""
   last_verified: 2026-05-04
+- name: OpenClaw Monitor
+  url: https://github.com/flik2002/openclaw-monitor
+  docs_url: https://github.com/flik2002/openclaw-monitor#readme
+  description: Open-source monitoring dashboard for OpenClaw AI agents. Tracks token usage, sessions and weekly trends from local agent data.
+  category: observability-and-evaluation
+  github: flik2002/openclaw-monitor
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-10-04
 
 - name: ax
   url: https://github.com/Necmttn/ax
@@ -980,6 +1076,18 @@
   license: AGPL-3.0
   b2_integration: ""
   last_verified: 2026-06-20
+
+- name: Spend Brake
+  url: https://spendbrake.dev
+  docs_url: https://docs.spendbrake.dev
+  description: Self-hostable egress proxy that prices each paid API call an agent makes (search, maps, SMS, custom APIs) and refuses it with 402 once a hard dollar cap per key, agent or session would be crossed. Loop detection, kill switch, Prometheus metrics and OpenTelemetry spans.
+  category: observability-and-evaluation
+  github: KIvanow/spend-brake
+  license: Apache-2.0
+  sdks:
+    - {language: CLI (npx @spend-brake/cli)}
+  b2_integration: ""
+  last_verified: 2026-11-06
 
 # ---------------- Agent Frameworks (additions 2026-06-01) ----------------
 
@@ -1071,6 +1179,20 @@
   b2_integration: ""
   last_verified: 2026-09-15
 
+# ---------------- Memory and State (additions 2026-10-16) ----------------
+
+- name: YYLO Ledger
+  url: https://github.com/yylo-dev/yylo-ledger
+  docs_url: https://yylo.dev/ledger
+  description: Git-native task and Record store for coding-agent workflows. Keeps reviewable current state and append-only history as Markdown in the repository, with receipts, archives, and bounded queries.
+  category: memory-and-state
+  github: yylo-dev/yylo-ledger
+  license: MIT
+  sdks:
+    - {language: Python CLI (pip install yylo-ledger)}
+  b2_integration: ""
+  last_verified: 2026-10-16
+  
 # ---------------- Agent Frameworks (additions 2026-11-03) ----------------
 
 - name: Agent Swarm
