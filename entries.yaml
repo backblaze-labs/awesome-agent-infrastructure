@@ -1256,3 +1256,13 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-07-26
+
+- name: TapVow
+  url: https://github.com/theluckystrike/tapvow
+  docs_url: https://github.com/theluckystrike/tapvow#readme
+  description: Open-source local gateway that gives each AI agent a signed spending limit. Refuses over-budget LLM and x402 calls before they reach the provider and records a receipt for every call. Drops in via ANTHROPIC_BASE_URL / OPENAI_BASE_URL.
+  category: observability-and-evaluation
+  github: theluckystrike/tapvow
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-09
