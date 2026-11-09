@@ -1139,3 +1139,17 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-15
+
+# ---------------- Memory and State (additions 2026-10-16) ----------------
+
+- name: YYLO Ledger
+  url: https://github.com/yylo-dev/yylo-ledger
+  docs_url: https://yylo.dev/ledger
+  description: Git-native task and Record store for coding-agent workflows. Keeps reviewable current state and append-only history as Markdown in the repository, with receipts, archives, and bounded queries.
+  category: memory-and-state
+  github: yylo-dev/yylo-ledger
+  license: MIT
+  sdks:
+    - {language: Python CLI (pip install yylo-ledger)}
+  b2_integration: ""
+  last_verified: 2026-10-16
