@@ -22,6 +22,8 @@
   - docs: https://ai.pydantic.dev
 - [AG2](https://ag2.ai): Community-maintained fork of AutoGen 0.2. Multi-agent conversation framework with swarms, group chats, and nested chat patterns.
   - docs: https://docs.ag2.ai/
+- [Agent Swarm](https://www.agent-swarm.dev): Self-hosted runtime where a lead agent turns goals into tasks and routes them to workers in isolated containers with shared memory and review gates.
+  - docs: https://docs.agent-swarm.dev
 - [AgentScope](https://agentscope.io): Python agent framework with an event-driven runtime, human-in-the-loop, sandboxed tool execution, and Agent-as-a-Service REST deployment. v2.0 released May 2026.
   - docs: https://docs.agentscope.io
 - [DeerFlow](https://github.com/bytedance/deer-flow): ByteDance's open-source super-agent harness built on LangGraph. Orchestrates sub-agents, memory, sandboxes, and skills for long-horizon tasks.
@@ -69,12 +71,16 @@
   - docs: https://hindsight.vectorize.io/docs
 - [Honcho](https://honcho.dev): Memory infrastructure for stateful agents. Stores messages to per-peer sessions, runs background reasoning to build user representations, and returns curated context via a fast query API.
   - docs: https://docs.honcho.dev
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha Rust knowledge store with encrypted, append-only records, device sync, and MCP retrieval through scoped, expiring grants.
+  - docs: https://github.com/louis030195/hyperconsciousness/blob/main/README.md
 - [Puppyone](https://www.puppyone.ai): File system for agents. Connect, govern, version, and share context across agent workflows.
   - docs: https://www.puppyone.ai/doc
 - [Redis Agent Memory Server](https://github.com/redis/agent-memory-server): Memory layer for AI agents backed by Redis. Two-tier working + long-term memory, semantic/keyword/hybrid search, REST and MCP interfaces, and multi-LLM provider support.
   - docs: https://github.com/redis/agent-memory-server/blob/main/README.md
 - [ReMe](https://github.com/agentscope-ai/ReMe): Memory management kit for AI agents. Conversation compaction, long-term file-based and vector memory, semantic search; compresses context by up to 99.5% while retaining critical facts.
   - docs: https://github.com/agentscope-ai/ReMe/blob/main/README.md
+- [SoloPup Memory](https://github.com/OakcoderX/solopup-memory): Native DeepSeek Harness public-beta text memory with source references, project scope, conditions and correction history. Lexical recall may miss paraphrases; requires Node >=24.9 and DSH >=0.2.1-rc.0 <0.3.0.
+  - docs: https://github.com/OakcoderX/solopup-memory/blob/main/README.en.md
 - [Supermemory](https://supermemory.ai): Memory and context API for AI agents. Ingests documents and conversations, extracts facts, builds user profiles, and returns relevant context via hybrid semantic search; SDK and REST interfaces.
   - docs: https://docs.supermemory.ai
 - [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory): Local-first memory lifecycle layer for AI agents. Rust CLI with SQLite/FTS recall, forgetting, audit, consolidation, and portable SKILL.md guidance.
@@ -91,10 +97,14 @@
   - docs: https://modelcontextprotocol.io/introduction
 - [Agent2Agent Protocol (A2A)](https://github.com/a2aproject/A2A): Open protocol for communication and interoperability between AI agents. JSON-RPC 2.0 over HTTP with SDKs for Python, Go, JS, Java, and .NET.
   - docs: https://a2a-protocol.org
+- [Aident Loadout](https://aident.ai): Hosted remote MCP server (Streamable HTTP, OAuth) that lets agents search app integrations and 400+ Skills by intent and run actions, with credentials kept in a vault, cost preflight, and an audit log of every call.
+  - docs: https://docs.aident.ai/loadout/mcp
 - [AWS MCP Servers](https://awslabs.github.io/mcp/): Suite of 53 open-source MCP servers for AWS services — CloudFormation, Bedrock, DynamoDB, EKS, S3, and more.
   - docs: https://awslabs.github.io/mcp/
 - [Bifrost](https://github.com/maximhq/bifrost): Self-hosted LLM and MCP gateway with OpenAI-compatible APIs, multi-provider routing, fallbacks, virtual keys, tool filtering, and OpenTelemetry observability.
   - docs: https://docs.getbifrost.ai/overview
+- [BrewPage MCP](https://brewpage.app): MCP server and REST API that let agents publish HTML pages, Markdown, JSON, key-value data and files to shareable HTTPS links without an account or API key. Hosted Streamable HTTP endpoint at https://brewpage.app/mcp; content is temporary (expires).
+  - docs: https://kochetkov-ma.github.io/brewpage-openapi/
 - [Composio](https://composio.dev): Tool-integration SDK for AI agents. 1000+ pre-built tool connectors (GitHub, Slack, Jira, etc.) with managed auth and sandboxed execution.
   - docs: https://docs.composio.dev
 - [Headroom](https://github.com/chopratejas/headroom): Context compression layer for AI agents. Compresses tool outputs, logs, RAG chunks, and files 60-95% before they reach the LLM; runs as a library, proxy, or MCP server with reversible compression.
