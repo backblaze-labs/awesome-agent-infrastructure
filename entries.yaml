@@ -1286,3 +1286,16 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-11-09
+
+- name: Vulnify
+  url: https://www.vulnify.io
+  docs_url: https://docs.vulnify.io
+  description: Runtime authorization API for AI agents. Before a tool call runs, the agent sends the proposed action and gets ALLOW, REVIEW (held for a person to approve) or BLOCK under your policies, with an audit trail. Python and TypeScript SDKs plus an MCP server.
+  category: execution-sandboxes
+  github: vulnify/vulnify-sdk
+  license: MIT
+  sdks:
+    - {language: Python (pip install vulnify)}
+    - {language: TypeScript (npm install @vulnify/sdk)}
+  b2_integration: ""
+  last_verified: 2026-11-10
