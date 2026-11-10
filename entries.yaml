@@ -1277,6 +1277,17 @@
   b2_integration: ""
   last_verified: 2026-11-09
 
+- name: Imagera MCP
+  url: https://imagera.ai/mcp
+  docs_url: https://imagera.ai/mcp
+  description: Hosted remote MCP server (Streamable HTTP at https://mcp.imagera.ai/mcp, OAuth sign-in, no API key to paste) that gives agents image, video, voice and music generation and editing tools, with a cost estimate before each run; companion repo holds agent skills.
+  category: tool-protocols-and-servers
+  github: alexadams6ix/imagera-skills
+  license: MIT
+  sdks: []
+  b2_integration: ""
+  last_verified: 2026-11-10
+
 - name: kc-agent (KubeStellar Console)
   url: https://github.com/kubestellar/console
   docs_url: https://github.com/kubestellar/console#kc-agent-bridge-self-hosted-console-to-your-clusters
