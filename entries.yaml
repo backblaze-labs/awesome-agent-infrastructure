@@ -1245,6 +1245,15 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-11-03
+
+- name: Agent Coach
+  url: https://upskill.coach
+  docs_url: https://upskill.coach/docs/mcp
+  description: Free remote MCP server and REST API that recommends agent skills, MCP servers and prompts that passed a security scan (prompt injection, malicious code, secret leaks) at a pinned commit, then runs daily check-ins with public keep/temporary/remove rules. Library search works without an account; hosted Streamable HTTP endpoint at https://upskill.coach/mcp.
+  category: tool-protocols-and-servers
+  b2_integration: ""
+  last_verified: 2026-11-10
+
 # ---------------- Observability and Evaluation (additions 2026-07-26) ----------------
 
 - name: ClawBench
