@@ -284,6 +284,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Lantern Works
+  url: https://thelanternworks.com/for-agents/
+  docs_url: https://github.com/connormatthewdouglas/agent-work-stack-deals
+  description: Read-only MCP server that compares GPU rental prices across tracked providers, with cited rates, check dates, and job-cost estimates.
+  category: tool-protocols-and-servers
+  github: connormatthewdouglas/agent-work-stack-deals
+  license: MIT
+  sdks:
+    - {language: Python (uvx lantern-works-deals-mcp)}
+  b2_integration: ""
+  last_verified: 2026-11-11
+
 - name: MCP Inspector
   url: https://github.com/modelcontextprotocol/inspector
   description: Interactive visual tool for testing and debugging MCP servers. Supports STDIO, SSE, and Streamable HTTP transports.
