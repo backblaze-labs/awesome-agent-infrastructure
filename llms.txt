@@ -65,6 +65,8 @@
   - docs: https://github.com/MrRex168/agent-commons#readme
 - [Cognee](https://www.cognee.ai): Knowledge engine for agent memory. ECL pipeline ingests any data into a hybrid vector + knowledge graph for structured, traceable recall.
   - docs: https://docs.cognee.ai
+- [Concord](https://getconcord.ai): MCP server and CLI that lets Claude Code, Codex, Cursor, Gemini CLI and other coding agents message each other, claim work, share task memory and hand off in one shared workspace.
+  - docs: https://github.com/Get-Concord-AI/concord-mcp#readme
 - [Graphiti](https://github.com/getzep/graphiti): Open-source temporal context graph engine. Tracks how facts change over time with full provenance; hybrid semantic + keyword + graph retrieval.
   - docs: https://help.getzep.com/graphiti
 - [grite](https://neullabs.com/grite): Git-backed issue tracker for AI coding agents. CRDT-merged event log in `refs/grite/wal` syncs via `git push`/`fetch`; no server or database required. Stable `--json` output, `AGENTS.md` auto-generation, and `grite install-skill` for Claude Code.
@@ -109,6 +111,8 @@
   - docs: https://kochetkov-ma.github.io/brewpage-openapi/
 - [Composio](https://composio.dev): Tool-integration SDK for AI agents. 1000+ pre-built tool connectors (GitHub, Slack, Jira, etc.) with managed auth and sandboxed execution.
   - docs: https://docs.composio.dev
+- [Docsy](https://docsy.remcp.site): Hosted OAuth 2.1 MCP for querying version-specific public developer documentation with original source links. Five read-only tools; the MIT plugin is public while the hosted backend is proprietary.
+  - docs: https://github.com/getremcp/docsy-plugin/blob/main/docs/GETTING-STARTED.md
 - [Headroom](https://github.com/chopratejas/headroom): Context compression layer for AI agents. Compresses tool outputs, logs, RAG chunks, and files 60-95% before they reach the LLM; runs as a library, proxy, or MCP server with reversible compression.
 - [IBM ContextForge](https://ibm.github.io/mcp-context-forge/latest/): Open-source MCP/A2A/REST gateway and registry. Federates MCP servers, A2A agents, and REST/gRPC APIs behind a single governed endpoint with auth, rate limiting, and OpenTelemetry tracing.
   - docs: https://ibm.github.io/mcp-context-forge/latest/
@@ -145,10 +149,16 @@
   - docs: https://docs.browser-use.com
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp): Microsoft's official MCP server for Playwright. Gives any MCP-aware agent a controllable browser.
 - [Anthropic Computer Use](https://docs.claude.com/en/docs/build-with-claude/computer-use): Claude's computer-use tool for controlling a full desktop. Reference Docker image and sample agent loop from Anthropic.
+- [Agent QA](https://github.com/vostride/agent-qa): TypeScript QA agent for natural-language web and mobile tests, persistent test memory, self-healing flows, and MCP-driven execution.
+  - docs: https://vostride.com/docs/agent-qa
 - [Browserbase](https://www.browserbase.com): Managed headless browsers for AI agents. Session recording, proxying, CAPTCHA handling, and a Stagehand framework.
   - docs: https://docs.browserbase.com
 - [Cloudbrowser](https://cloudbrowser.tv): Persistent remote Chrome for AI agent workflows. Isolated browser profiles connect through scoped CDP links; pause and resume preserve the browser profile, and Live View lets operators inspect the full desktop.
   - docs: https://cloudbrowser.tv/docs
+- [CurlShot](https://curlshot.com): Hosted screenshot API and remote MCP server that lets agents see rendered web pages. Returns an image, PDF, or scrolling video, with full-page capture, device presets, dark mode, and single-element capture by CSS selector.
+  - docs: https://curlshot.com/docs
+- [rea-captcha](https://github.com/masakaai/rea-captcha): Handles browser-agent tasks interrupted by CAPTCHA while keeping the caller-owned session through an authorized test action or human handoff and requiring fresh evidence before resuming.
+  - docs: https://github.com/masakaai/rea-captcha#readme
 - [ReMCP](https://remcp.site): OAuth MCP for file, terminal, browser and desktop actions on explicitly user-paired computers. Operations may change device state; MIT runtime is public while the managed relay is proprietary.
   - docs: https://github.com/getremcp/remcp/blob/main/README.md
 
