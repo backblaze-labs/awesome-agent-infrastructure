@@ -1340,3 +1340,16 @@
   category: browser-and-computer-use
   b2_integration: ""
   last_verified: 2026-10-16
+
+- name: Agent Retry Rodeo
+  url: https://github.com/RishabhPande/agent-retry-rodeo
+  docs_url: https://github.com/RishabhPande/agent-retry-rodeo
+  description: Educational Python simulator for agent retry failures with persisted-state
+    assertions and JSON trace replay.
+  category: templates-and-example-projects
+  github: RishabhPande/agent-retry-rodeo
+  license: MIT
+  sdks:
+  - language: Python
+  b2_integration: ''
+  last_verified: '2026-11-11'
