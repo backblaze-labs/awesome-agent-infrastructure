@@ -325,6 +325,18 @@
   b2_integration: ""
   last_verified: 2026-09-22
 
+- name: CloudGPU MCP
+  url: https://github.com/mrhy7176/cloudgpu-mcp
+  docs_url: https://cloudgpu.app/docs/mcp
+  description: MCP server for discovering rental GPUs, requesting quotes, running GPU jobs, transferring files, reading logs, and shutting down instances.
+  category: tool-protocols-and-servers
+  github: mrhy7176/cloudgpu-mcp
+  license: MIT
+  sdks:
+    - {language: TypeScript}
+  b2_integration: ""
+  last_verified: 2026-11-11
+
 # ---------------- Execution Sandboxes ----------------
 
 - name: E2B
