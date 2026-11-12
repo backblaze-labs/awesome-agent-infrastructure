@@ -16,6 +16,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: LazyMind
+  url: https://github.com/LazyAGI/LazyMind
+  docs_url: https://github.com/LazyAGI/LazyMind/blob/main/docs/quick_start.md
+  description: Open-source AI Skill Runtime that turns reusable Skills into observable, stateful workflows with approval checkpoints, retry and rewind controls, and editable artifacts.
+  category: agent-frameworks
+  github: LazyAGI/LazyMind
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-11-11
+
 - name: Microsoft AutoGen
   url: https://microsoft.github.io/autogen/
   docs_url: https://microsoft.github.io/autogen/stable/
