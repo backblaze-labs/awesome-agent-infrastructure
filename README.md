@@ -118,6 +118,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[OpenShell](https://github.com/NVIDIA/OpenShell)** – NVIDIA's open-source sandbox runtime for autonomous agents. Declarative YAML policies govern file access, network activity, and data exfiltration; supports Claude, Codex, Copilot, and OpenCode. SDK: Python (uv tool install openshell)
 - **[Riza](https://riza.io)** – Secure code-execution API for LLM tool calls. Python, JS, PHP, Ruby; strict WASM-based isolation. [Docs](https://docs.riza.io)
 - **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** – Local-first agent runtime and MCP bridge for auditable sessions, sandboxed execution, approvals, and Docker/Kubernetes-backed workflows. [Docs](https://github.com/sandbaseai/sandbase-harness/blob/main/docs/mcp-install.md)
+- **[Sandswap](https://github.com/ChaoyiHuang/sandswap)** - Sandswap redefines the microVM by decoupling compute from disk: a microVM acts as pure compute(only the kernel and PID 1 warden), while the agent's rootfs (SandFS) is simply a directory(local or distributed). SandFS is dynamically mounted into the microVM to execute commands with ultra-low latency—~2.3 ms cold and ~0.96 ms warm. Ideally,a single microVM can be reused up to 183 times per second across different AI agents. Provide https and MCP interface for command execution. [Docs](https://chaoyihuang.github.io/sandswap/)
 
 ## Browser and Computer Use
 
