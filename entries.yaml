@@ -423,6 +423,14 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: AdsCrawl
+  url: https://www.adscrawl.net
+  docs_url: https://api.adscrawl.net/docs/agent-quickstart.md
+  description: Managed cloud Chromium and HTTP APIs for browser automation, rendered HTML/Markdown, CSS-selector extraction, screenshots, and remote CDP sessions.
+  category: browser-and-computer-use
+  b2_integration: ""
+  last_verified: 2026-11-13
+
 - name: browser-use
   url: https://browser-use.com
   docs_url: https://docs.browser-use.com
