@@ -1331,6 +1331,18 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-10-25
+
+
+- name: CorpusIQ
+  url: https://www.corpusiq.io/?utm_source=github&utm_medium=referral&utm_campaign=awesome-list
+  docs_url: https://docs.corpusiq.io/connectors/ai-mcp-server-for-business-data
+  description: Hosted MCP server that exposes 40+ business data connectors (Stripe, Google Analytics 4, Shopify, QuickBooks, HubSpot) as read-only tools, so an agent answers cross-source revenue and analytics questions with the source records cited.
+  category: tool-protocols-and-servers
+  github: CorpusIQ/corpusiq-docs
+  license: Other
+  b2_integration: ""
+  last_verified: 2026-11-14
+
 # ---------------- Browser and Computer Use (additions 2026-10-16) ----------------
 
 - name: CurlShot
