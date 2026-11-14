@@ -410,6 +410,14 @@
   b2_integration: ""
   last_verified: 2026-08-31
 
+- name: SandBase Sandbox
+  url: https://www.sandbase.ai/sandbox
+  docs_url: https://www.sandbase.ai/docs/sandbox/quickstart
+  description: Hosted sandbox service that lets agents create workspaces, execute commands, and retrieve files through the E2B SDK.
+  category: execution-sandboxes
+  b2_integration: ""
+  last_verified: 2026-11-14
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
