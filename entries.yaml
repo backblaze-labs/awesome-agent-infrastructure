@@ -410,6 +410,16 @@
   b2_integration: ""
   last_verified: 2026-08-31
 
+- name: Spawnbox
+  url: https://spawnbox.tulipfarm.ai
+  docs_url: https://github.com/TulipFarm/spawnbox#readme
+  description: Self-hosted sandbox server for AI agents. Runs each sandbox as a Firecracker microVM (gVisor without KVM) on your own Linux hosts, with an HTTP API and CLI, pause/resume, forks, network allowlists, and secrets injected outside the sandbox.
+  category: execution-sandboxes
+  github: TulipFarm/spawnbox
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-11-14
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
