@@ -1340,3 +1340,11 @@
   category: browser-and-computer-use
   b2_integration: ""
   last_verified: 2026-10-16
+
+- name: Datacircle
+  url: https://datacircle.dev
+  docs_url: https://datacircle.dev/docs/mcp
+  description: Open MCP server and REST API, with no key, that let agents compare GTM data APIs. list_apis and search_plans return each plan's price per 1,000, limits and score. Endpoint https://api.datacircle.dev/mcp, spec at https://api.datacircle.dev/v1/openapi.json.
+  category: tool-protocols-and-servers
+  b2_integration: ""
+  last_verified: 2026-11-15
