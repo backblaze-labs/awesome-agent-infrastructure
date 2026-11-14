@@ -148,6 +148,16 @@
   b2_integration: ""
   last_verified: 2026-11-08
 
+- name: Kodama
+  url: https://github.com/optimiware/kodama
+  docs_url: https://github.com/optimiware/kodama/blob/master/docs/README.md
+  description: API-first, multi-tenant software factory in Go running container pipelines and AI coding agents (Claude Code, OpenCode, Codex, Pi) on rootless Podman 5 or Kubernetes Jobs, with PostgreSQL RLS, NATS JetStream, REST/MCP edges, a model gateway, Git access rules, and role inbox approvals.
+  category: agent-frameworks
+  github: optimiware/kodama
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-11-14
+
 # ---------------- Memory and State ----------------
 
 - name: Letta
