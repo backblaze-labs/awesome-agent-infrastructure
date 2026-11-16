@@ -410,6 +410,17 @@
   b2_integration: ""
   last_verified: 2026-08-31
 
+- name: MAQPNA
+  url: https://maqpna.com
+  docs_url: https://docs.maqpna.com
+  description: Self-hosted runtime for agent security and governance. Runs each agent session in a sandbox (gVisor, microVM or confidential VM) and routes tool, model and agent calls through a gateway that enforces default-deny policy, holds risky actions for human approval, and keeps a hash-chained audit log.
+  category: execution-sandboxes
+  sdks:
+    - {language: Python (pip install kosa8-maqpna)}
+    - {language: TypeScript (npm install @kosa8/maqpna)}
+  b2_integration: ""
+  last_verified: 2026-11-16
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
