@@ -388,6 +388,17 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: OnlineCompiler.io
+  url: https://onlinecompiler.io
+  docs_url: https://onlinecompiler.io/docs
+  description: Code execution API and remote MCP server that run each program in a new gVisor container with no network, in 46 languages, and can judge the output against test cases.
+  category: execution-sandboxes
+  sdks:
+    - {language: Python (pip install onlinecompiler)}
+    - {language: JS (npm install onlinecompiler)}
+  b2_integration: ""
+  last_verified: 2026-11-17
+
 - name: Microsoft Agent Governance Toolkit
   url: https://github.com/microsoft/agent-governance-toolkit
   description: Runtime policy enforcement for autonomous agents. Zero-trust identity, execution sandboxing, sub-millisecond policy checks; covers all 10 OWASP Agentic Top 10 risks.
