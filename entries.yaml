@@ -1340,3 +1340,16 @@
   category: browser-and-computer-use
   b2_integration: ""
   last_verified: 2026-10-16
+
+# ---------------- Execution Sandboxes (additions 2026-11-17) ----------------
+
+- name: kosa8
+  url: https://kosa8.com
+  docs_url: https://docs.kosa8.com
+  description: Agent sandboxes where each sandbox is a microVM with its own kernel, run locally (macOS, Linux, WSL2) or on kosa8 Cloud. Host-enforced egress allow-list, API keys injected by a host-side broker, and checkpoint, rewind and fork of a running sandbox. CLI, Docker-compatible API and MCP server.
+  category: execution-sandboxes
+  sdks:
+    - {language: TypeScript (npm install @kosa8/sdk)}
+    - {language: Python (pip install kosa8)}
+  b2_integration: ""
+  last_verified: 2026-11-17
