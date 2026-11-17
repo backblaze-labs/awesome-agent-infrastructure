@@ -1405,3 +1405,15 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-11-19
+# ---------------- Execution Sandboxes (additions 2026-11-17) ----------------
+
+- name: kosa8
+  url: https://kosa8.com
+  docs_url: https://docs.kosa8.com
+  description: MicroVM agent sandboxes with their own kernel, run locally or on kosa8 Cloud, with host-enforced egress allow-lists, host-side API key injection, and checkpoint, rewind and fork. CLI, Docker-compatible API and MCP server.
+  category: execution-sandboxes
+  sdks:
+    - {language: TypeScript}
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-11-17
