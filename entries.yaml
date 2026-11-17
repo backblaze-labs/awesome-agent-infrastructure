@@ -182,6 +182,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Axonio
+  url: https://axonio.xyz/
+  docs_url: https://docs.axonio.xyz/
+  description: Persistent memory for AI agents with vector and graph retrieval, Git-style memory branching, and hosted MCP access.
+  category: memory-and-state
+  sdks:
+    - {language: TypeScript (npm install axonio)}
+  b2_integration: ""
+  last_verified: 2026-11-17
+
 - name: Mem0
   url: https://mem0.ai
   docs_url: https://docs.mem0.ai
