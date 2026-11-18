@@ -410,6 +410,20 @@
   b2_integration: ""
   last_verified: 2026-08-31
 
+- name: CubePod
+  url: https://cubepod.dev
+  docs_url: https://cubepod.dev/api/
+  description: Open-source Kata MicroVM sandbox platform with persistent writable RootFS and workspace block volumes, Copy-on-Write forks, mTLS egress secret brokering, and E2B-compatible APIs.
+  category: execution-sandboxes
+  github: cubeplexai/cubepod
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install cubepod)}
+    - {language: TypeScript (npm install cubepod)}
+    - {language: Go}
+  b2_integration: ""
+  last_verified: 2026-11-17
+
 # ---------------- Browser and Computer Use ----------------
 
 - name: Browserbase
