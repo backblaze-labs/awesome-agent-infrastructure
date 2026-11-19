@@ -1340,3 +1340,13 @@
   category: browser-and-computer-use
   b2_integration: ""
   last_verified: 2026-10-16
+
+- name: Open Agent API
+  url: https://github.com/jiangxingfan1-coder/Open-Agent-API
+  docs_url: https://github.com/jiangxingfan1-coder/Open-Agent-API#running-in-three-minutes
+  description: Self-hosted agent runtime and gateway for publishing built-in or ACP-connected agents behind OpenAI, Anthropic, and Gemini SDK-compatible endpoints.
+  category: agent-frameworks
+  github: jiangxingfan1-coder/Open-Agent-API
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-11-19
