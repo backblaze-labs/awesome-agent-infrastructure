@@ -11,8 +11,8 @@
   github: langchain-ai/langgraph
   license: MIT
   sdks:
-    - {language: Python (pip install langgraph)}
-    - {language: JS (npm install @langchain/langgraph)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -34,7 +34,7 @@
   github: microsoft/autogen
   license: CC-BY-4.0
   sdks:
-    - {language: Python (pip install autogen-agentchat)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -46,7 +46,7 @@
   github: crewAIInc/crewAI
   license: MIT
   sdks:
-    - {language: Python (pip install crewai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -58,7 +58,7 @@
   github: agno-agi/agno
   license: MPL-2.0
   sdks:
-    - {language: Python (pip install agno)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -70,7 +70,7 @@
   github: pydantic/pydantic-ai
   license: MIT
   sdks:
-    - {language: Python (pip install pydantic-ai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -82,7 +82,7 @@
   github: mastra-ai/mastra
   license: Apache-2.0
   sdks:
-    - {language: TypeScript (npm install @mastra/core)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -94,7 +94,7 @@
   github: huggingface/smolagents
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install smolagents)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -106,7 +106,7 @@
   github: openai/openai-agents-python
   license: MIT
   sdks:
-    - {language: Python (pip install openai-agents)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -118,8 +118,8 @@
   github: google/adk-python
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install google-adk)}
-    - {language: TypeScript (npm install @google/adk)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -131,8 +131,8 @@
   github: microsoft/agent-framework
   license: MIT
   sdks:
-    - {language: Python (pip install agent-framework)}
-    - {language: .NET (dotnet add package Microsoft.Agents.AI)}
+    - {language: Python}
+    - {language: .NET}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -144,7 +144,7 @@
   github: langroid/langroid
   license: MIT
   sdks:
-    - {language: Python (pip install langroid)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -178,7 +178,7 @@
   github: letta-ai/letta
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install letta-client)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -188,7 +188,7 @@
   description: Persistent memory for AI agents with vector and graph retrieval, Git-style memory branching, and hosted MCP access.
   category: memory-and-state
   sdks:
-    - {language: TypeScript (npm install axonio)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-11-17
 
@@ -200,8 +200,8 @@
   github: mem0ai/mem0
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mem0ai)}
-    - {language: Node (npm install mem0ai)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -223,7 +223,7 @@
   github: getzep/graphiti
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install graphiti-core)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -245,10 +245,9 @@
   github: neul-labs/grite
   license: MIT
   sdks:
-    - {language: Rust (cargo install grite)}
-    - {language: Homebrew (brew install neul-labs/tap/grite)}
-    - {language: npm (npm i -g grite-cli)}
-    - {language: pip (pip install grite-cli)}
+    - {language: Rust}
+    - {language: JavaScript}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-05
 - name: Hyperconsciousness
@@ -279,8 +278,8 @@
   github: ClickHouse/loom
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install clickhouse-loom)}
-    - {language: TypeScript (npm install @clickhouse/loom)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-11-16
 
@@ -303,7 +302,7 @@
   github: modelcontextprotocol/python-sdk
   license: MIT
   sdks:
-    - {language: Python (pip install mcp)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -314,7 +313,7 @@
   github: modelcontextprotocol/typescript-sdk
   license: MIT
   sdks:
-    - {language: TypeScript (npm install @modelcontextprotocol/sdk)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -334,7 +333,7 @@
   github: modelcontextprotocol/inspector
   license: MIT
   sdks:
-    - {language: TypeScript (npx @modelcontextprotocol/inspector)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -378,8 +377,8 @@
   github: e2b-dev/E2B
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install e2b)}
-    - {language: JS (npm install @e2b/code-interpreter)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -391,8 +390,8 @@
   github: lizard-build/lizard-sdk
   license: Other
   sdks:
-    - {language: "TypeScript/JavaScript (npm install @lizard-build/sdk)"}
-    - {language: "Python (pip install lizard-sdk)"}
+    - {language: TypeScript}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-10-14
 
@@ -437,8 +436,8 @@
   description: Code execution API and remote MCP server that run each program in a new gVisor container with no network, in 46 languages, and can judge the output against test cases.
   category: execution-sandboxes
   sdks:
-    - {language: Python (pip install onlinecompiler)}
-    - {language: JS (npm install onlinecompiler)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-11-17
 
@@ -449,8 +448,8 @@
   github: microsoft/agent-governance-toolkit
   license: MIT
   sdks:
-    - {language: Python (pip install agent-governance-toolkit)}
-    - {language: TypeScript (npm install @microsoft/agentmesh-sdk)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -494,8 +493,8 @@
   description: Managed headless browsers for AI agents. Session recording, proxying, CAPTCHA handling, and a Stagehand framework.
   category: browser-and-computer-use
   sdks:
-    - {language: Python (pip install browserbase)}
-    - {language: Node (npm install @browserbase/sdk)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -507,7 +506,7 @@
   github: browser-use/browser-use
   license: MIT
   sdks:
-    - {language: Python (pip install browser-use)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -578,8 +577,8 @@
   github: langfuse/langfuse
   license: MIT
   sdks:
-    - {language: Python (pip install langfuse)}
-    - {language: JS (npm install langfuse)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -601,7 +600,7 @@
   github: Arize-ai/phoenix
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install arize-phoenix)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -613,7 +612,7 @@
   github: comet-ml/opik
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install opik)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -632,8 +631,8 @@
   github: traceloop/openllmetry
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install traceloop-sdk)}
-    - {language: TypeScript (npm install @traceloop/node-server-sdk)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -645,7 +644,7 @@
   github: aaronlab/browsertrace
   license: MIT
   sdks:
-    - {language: 'Python (pip install "browsertrace[ui]")'}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-12
 
@@ -657,7 +656,7 @@
   github: truera/trulens
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install trulens)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -671,8 +670,8 @@
   github: run-llama/llama_index
   license: MIT
   sdks:
-    - {language: Python (pip install llama-index)}
-    - {language: TypeScript (npm install llamaindex)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -684,7 +683,7 @@
   github: deepset-ai/haystack
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install haystack-ai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -696,8 +695,8 @@
   github: langchain-ai/langchain
   license: MIT
   sdks:
-    - {language: Python (pip install langchain)}
-    - {language: JS (npm install langchain)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -709,7 +708,7 @@
   github: explodinggradients/ragas
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install ragas)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -723,8 +722,8 @@
   github: qdrant/qdrant
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install qdrant-client)}
-    - {language: JS}
+    - {language: Python}
+    - {language: JavaScript}
     - {language: Rust}
     - {language: Go}
   b2_integration: ""
@@ -758,8 +757,8 @@
   github: chroma-core/chroma
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install chromadb)}
-    - {language: JS (npm install chromadb)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -771,7 +770,7 @@
   github: lancedb/lancedb
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install lancedb)}
+    - {language: Python}
     - {language: Rust}
     - {language: Node}
   b2_integration: ""
@@ -820,7 +819,7 @@
   github: ag2ai/ag2
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install ag2)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -842,8 +841,8 @@
   github: strands-agents/sdk-python
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install strands-agents)}
-    - {language: TypeScript (npm install @strands-agents/sdk)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -855,7 +854,7 @@
   github: FoundationAgents/MetaGPT
   license: MIT
   sdks:
-    - {language: Python (pip install metagpt)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -867,7 +866,7 @@
   github: VoltAgent/voltagent
   license: MIT
   sdks:
-    - {language: TypeScript (npm create voltagent-app@latest)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -881,7 +880,7 @@
   github: topoteretes/cognee
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install cognee)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -895,8 +894,8 @@
   github: ComposioHQ/composio
   license: MIT
   sdks:
-    - {language: Python (pip install composio)}
-    - {language: TypeScript (npm install @composio/core)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -920,7 +919,7 @@
   github: AgentOps-AI/agentops
   license: MIT
   sdks:
-    - {language: Python (pip install agentops)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -944,9 +943,9 @@
   github: microsoft/semantic-kernel
   license: MIT
   sdks:
-    - {language: Python (pip install semantic-kernel)}
-    - {language: C# (dotnet add package Microsoft.SemanticKernel)}
-    - {language: "Java (Maven: com.microsoft.semantic-kernel)"}
+    - {language: Python}
+    - {language: C#}
+    - {language: Java}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -969,7 +968,7 @@
   github: agentscope-ai/ReMe
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install reme)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -983,7 +982,7 @@
   github: HKUDS/LightRAG
   license: MIT
   sdks:
-    - {language: Python (pip install lightrag-hku)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -997,7 +996,7 @@
   github: mlflow/mlflow
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mlflow)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -1011,7 +1010,7 @@
   github: openai/openai-agents-js
   license: MIT
   sdks:
-    - {language: TypeScript (npm install @openai/agents)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -1025,8 +1024,8 @@
   github: vectorize-io/hindsight
   license: MIT
   sdks:
-    - {language: Python (pip install hindsight-client)}
-    - {language: TypeScript (npm install @vectorize-io/hindsight-client)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -1039,7 +1038,7 @@
   github: NVIDIA/OpenShell
   license: Apache-2.0
   sdks:
-    - {language: Python (uv tool install openshell)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -1065,8 +1064,8 @@
   github: lmnr-ai/lmnr
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install lmnr)}
-    - {language: TypeScript (npm install @lmnr-ai/lmnr)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1080,7 +1079,7 @@
   github: cocoindex-io/cocoindex
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install cocoindex)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1094,7 +1093,7 @@
   github: redis/agent-memory-server
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install agent-memory-client)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1108,7 +1107,7 @@
   github: FlowiseAI/Flowise
   license: Apache-2.0
   sdks:
-    - {language: TypeScript (npm install -g flowise)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1121,7 +1120,7 @@
   github: open-multi-agent/open-multi-agent
   license: MIT
   sdks:
-    - {language: TypeScript (npm install @open-multi-agent/core)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-08-10
 
@@ -1135,7 +1134,7 @@
   github: IBM/mcp-context-forge
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mcp-contextforge-gateway)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1146,7 +1145,7 @@
   github: czlonkowski/n8n-mcp
   license: MIT
   sdks:
-    - {language: TypeScript (npx n8n-mcp)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -1160,7 +1159,7 @@
   github: basilisk-labs/agentplane
   license: MIT
   sdks:
-    - {language: CLI (npm install -g agentplane)}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-05-12
 
@@ -1172,7 +1171,7 @@
   github: confident-ai/deepeval
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install -U deepeval)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 - name: OpenClaw Monitor
@@ -1203,7 +1202,7 @@
   github: KIvanow/spend-brake
   license: Apache-2.0
   sdks:
-    - {language: CLI (npx @spend-brake/cli)}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-11-06
 
@@ -1217,7 +1216,7 @@
   github: langflow-ai/langflow
   license: MIT
   sdks:
-    - {language: Python (pip install langflow)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -1229,7 +1228,7 @@
   github: agentscope-ai/agentscope
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install agentscope)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -1243,7 +1242,7 @@
   github: plastic-labs/honcho
   license: AGPL-3.0
   sdks:
-    - {language: Python (uv add honcho-ai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -1255,7 +1254,7 @@
   github: supermemoryai/supermemory
   license: MIT
   sdks:
-    - {language: TypeScript (npm install @supermemory/sdk)}
+    - {language: TypeScript}
     - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
@@ -1268,7 +1267,7 @@
   github: TerminallyLazy/Tree-Ring-Memory
   license: MIT
   sdks:
-    - {language: Rust CLI (brew install tree-ring)}
+    - {language: Rust}
   b2_integration: ""
   last_verified: 2026-07-07
 
@@ -1281,7 +1280,7 @@
   github: chopratejas/headroom
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install headroom)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -1307,7 +1306,7 @@
   github: yylo-dev/yylo-ledger
   license: MIT
   sdks:
-    - {language: Python CLI (pip install yylo-ledger)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-10-16
 # ---------------- Tool Protocols and Servers (additions 2026-10-18) ----------------
@@ -1320,7 +1319,7 @@
   github: Aident-AI/aident-skill
   license: MIT
   sdks:
-    - {language: TypeScript CLI (npm install -g @aident-ai/cli)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-10-18
 - name: BrewPage MCP
@@ -1331,7 +1330,7 @@
   github: kochetkov-ma/brewpage-openapi
   license: Apache-2.0
   sdks:
-    - {language: TypeScript (npx -y brewpage-mcp)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-11-07
 
@@ -1456,8 +1455,8 @@
   github: vulnify/vulnify-sdk
   license: MIT
   sdks:
-    - {language: Python (pip install vulnify)}
-    - {language: TypeScript (npm install @vulnify/sdk)}
+    - {language: Python}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-11-10
 
