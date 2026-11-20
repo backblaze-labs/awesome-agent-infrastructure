@@ -17,6 +17,7 @@ Thanks for your interest in contributing. This list covers infrastructure for ru
 - Tool protocols (MCP and friends) plus SDKs and reference servers.
 - Execution sandboxes, browser automation, and computer-use platforms.
 - Observability, tracing, and evaluation tools.
+- Guardrails and governance: runtime policy, authorization, and approval layers for agent actions.
 - RAG frameworks and vector databases.
 
 **We don't accept**
