@@ -2,7 +2,7 @@
 
 ## What this list is
 
-A curated directory of infrastructure for running LLM agents in production — frameworks, memory, MCP, sandboxes, browser/computer use, observability, retrieval, and vector stores.
+A curated directory of infrastructure for running LLM agents in production — frameworks, memory, MCP, sandboxes, browser/computer use, observability, guardrails, retrieval, and vector stores.
 
 ## Scope
 
@@ -13,6 +13,7 @@ A curated directory of infrastructure for running LLM agents in production — f
 - Execution sandboxes for running agent-generated code.
 - Browser and full computer-use platforms.
 - LLM observability, tracing, and evaluation tools.
+- Guardrails and governance: runtime policy, authorization, and human-approval layers for agent actions.
 - RAG frameworks and retrieval libraries.
 - Vector databases commonly used by agents.
 - Template/demo projects.

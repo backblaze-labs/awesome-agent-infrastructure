@@ -25,6 +25,10 @@
   name: Observability and Evaluation
   description: Tracing, logging, metrics, and automated evals for LLM applications.
 
+- slug: guardrails-and-governance
+  name: Guardrails and Governance
+  description: Runtime policy, authorization, and approval layers that gate what agents are allowed to do.
+
 - slug: retrieval-and-rag
   name: Retrieval and RAG
   description: Retrieval-augmented generation frameworks and document-indexing libraries.
