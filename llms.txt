@@ -34,14 +34,20 @@
   - docs: https://docs.flowiseai.com
 - [Google ADK](https://adk.dev): Google's open-source agent development kit. Build, evaluate, and deploy multi-agent systems; multi-language with Gemini-optimized but model-agnostic.
   - docs: https://adk.dev
+- [Kodama](https://github.com/optimiware/kodema): API-first, multi-tenant software factory in Go running container pipelines and AI coding agents (Claude Code, OpenCode, Codex, Pi) on rootless Podman 5 or Kubernetes Jobs, with PostgreSQL RLS, NATS JetStream, REST/MCP edges, a model gateway, Git access rules, and role inbox approvals.
+  - docs: https://github.com/optimiware/kodema/blob/master/docs/README.md
 - [Langflow](https://www.langflow.org): Low-code builder for AI agents and RAG applications. Visual canvas with Python escape hatches, deploys flows as REST APIs or MCP servers; 40+ model and vector-store integrations.
   - docs: https://docs.langflow.org
 - [Langroid](https://langroid.github.io/langroid/): Lightweight Python multi-agent framework from CMU/UW-Madison. Task-delegation via message passing; no LangChain dependency.
   - docs: https://langroid.github.io/langroid/
+- [LazyMind](https://github.com/LazyAGI/LazyMind): Open-source AI Skill Runtime that turns reusable Skills into observable, stateful workflows with approval checkpoints, retry and rewind controls, and editable artifacts.
+  - docs: https://github.com/LazyAGI/LazyMind/blob/main/docs/quick_start.md
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT): Multi-agent framework that assigns software-company roles (PM, architect, engineer) to LLMs. Input a requirement, get PRD, design, code, and tests.
   - docs: https://docs.deepwisdom.ai/main/en/
 - [Microsoft Agent Framework](https://devblogs.microsoft.com/agent-framework/): Microsoft's production-ready open-source agent SDK and runtime for Python and .NET. Unifies AutoGen orchestration and Semantic Kernel foundations.
   - docs: https://learn.microsoft.com/en-us/agent-framework/overview/
+- [Open Agent API](https://github.com/jiangxingfan1-coder/Open-Agent-API): Self-hosted agent runtime and gateway for publishing built-in or ACP-connected agents behind OpenAI, Anthropic, and Gemini SDK-compatible endpoints.
+  - docs: https://github.com/jiangxingfan1-coder/Open-Agent-API#running-in-three-minutes
 - [Open Multi-Agent](https://github.com/open-multi-agent/open-multi-agent): TypeScript-native multi-agent orchestration that plans task DAGs from goals at runtime and runs them with approval gates, tracing, evaluation, checkpoints, and resume support in your own environment.
 - [OpenAI Agents SDK (TypeScript)](https://openai.github.io/openai-agents-js/): Official OpenAI agent framework for TypeScript and JavaScript. Agents, handoffs, guardrails, voice via Realtime API, and built-in tracing.
   - docs: https://openai.github.io/openai-agents-js/
@@ -63,6 +69,10 @@
   - docs: https://help.getzep.com
 - [Agent Commons](https://github.com/MrRex168/agent-commons): Open-source continuity layer for persistent AI agents. Preserves identity, memory, state, and relationships across model, runtime, and server changes, with signed portable state, A2A discovery, and MCP/REST interfaces.
   - docs: https://github.com/MrRex168/agent-commons#readme
+- [Axonio](https://axonio.xyz/): Persistent memory for AI agents with vector and graph retrieval, Git-style memory branching, and hosted MCP access.
+  - docs: https://docs.axonio.xyz/
+- [ClickHouse Loom](https://github.com/ClickHouse/loom): Self-hosted MCP server and HTTP API that gives agents shared long-term memory, document search with citations and a code index, stored in ClickHouse.
+  - docs: https://clickhouse.github.io/loom/
 - [Cognee](https://www.cognee.ai): Knowledge engine for agent memory. ECL pipeline ingests any data into a hybrid vector + knowledge graph for structured, traceable recall.
   - docs: https://docs.cognee.ai
 - [Concord](https://getconcord.ai): MCP server and CLI that lets Claude Code, Codex, Cursor, Gemini CLI and other coding agents message each other, claim work, share task memory and hand off in one shared workspace.
@@ -124,6 +134,8 @@
 - [n8n-mcp](https://github.com/czlonkowski/n8n-mcp): MCP server exposing n8n's 1,650+ workflow nodes to AI agents. Provides node docs, schema properties, operations, and workflow validation for agents building n8n automations.
 - [Screenpipe MCP](https://screenpipe.com): MCP server for querying locally captured screen text and audio history as agent context for recall, meeting notes, and work summaries. Requires a running Screenpipe recorder and local API key; configured cloud features can transmit context off-device.
   - docs: https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md
+- [Speakeasy Gram](https://github.com/speakeasy-api/gram): Open-source MCP gateway that exposes agent tools with identity-based permissions, per-action security policies, and tool-call audit logs.
+  - docs: https://www.speakeasy.com/docs/ai-control-plane/mcp-gateway
 
 ## Execution Sandboxes
 
@@ -131,17 +143,27 @@
   - docs: https://www.daytona.io/docs
 - [E2B](https://e2b.dev): Secure cloud sandboxes for running AI-generated code. Firecracker microVMs, sub-second startup, per-session isolation.
   - docs: https://e2b.dev/docs
+- [CubePod](https://cubepod.dev): Open-source Kata MicroVM sandbox platform with persistent writable RootFS and workspace block volumes, Copy-on-Write forks, mTLS egress secret brokering, and E2B-compatible APIs.
+  - docs: https://cubepod.dev/api/
 - [Ephemeral Sandbox](https://ephemeral-sandbox.com): Open-source agent sandbox infrastructure that gives parallel coding agents isolated workspaces over one shared project base, with MCP and CLI control plus atomic publication.
   - docs: https://ephemeral-sandbox.com/docs
+- [kosa8](https://kosa8.com): MicroVM agent sandboxes with their own kernel, run locally or on kosa8 Cloud, with host-enforced egress allow-lists, host-side API key injection, and checkpoint, rewind and fork. CLI, Docker-compatible API and MCP server.
+  - docs: https://docs.kosa8.com
 - [Lizard Sandboxes](https://lizard.build/sandboxes): Managed sandboxes for agent code with a Firecracker microVM runtime, snapshots, live forks, and TypeScript/Python SDKs.
   - docs: https://lizard.build/docs/sandboxes/
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Runtime policy enforcement for autonomous agents. Zero-trust identity, execution sandboxing, sub-millisecond policy checks; covers all 10 OWASP Agentic Top 10 risks.
 - [Modal Sandboxes](https://modal.com/docs/guide/sandbox): Serverless sandbox primitive inside Modal. Arbitrary container execution, ephemeral filesystems, strict network policies.
+- [OnlineCompiler.io](https://onlinecompiler.io): Code execution API and remote MCP server that run each program in a new gVisor container with no network, in 46 languages, and can judge the output against test cases.
+  - docs: https://onlinecompiler.io/docs
 - [OpenShell](https://github.com/NVIDIA/OpenShell): NVIDIA's open-source sandbox runtime for autonomous agents. Declarative YAML policies govern file access, network activity, and data exfiltration; supports Claude, Codex, Copilot, and OpenCode.
 - [Riza](https://riza.io): Secure code-execution API for LLM tool calls. Python, JS, PHP, Ruby; strict WASM-based isolation.
   - docs: https://docs.riza.io
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness): Local-first agent runtime and MCP bridge for auditable sessions, sandboxed execution, approvals, and Docker/Kubernetes-backed workflows.
   - docs: https://github.com/sandbaseai/sandbase-harness/blob/main/docs/mcp-install.md
+- [Sandswap](https://github.com/ChaoyiHuang/sandswap): MicroVM sandbox runtime that decouples compute from disk, mounting an agent's rootfs directory into a reusable microVM, with HTTP and MCP interfaces for command execution.
+  - docs: https://chaoyihuang.github.io/sandswap/
+- [Spawnbox](https://spawnbox.tulipfarm.ai): Self-hosted sandbox server for AI agents. Runs each sandbox as a Firecracker microVM (gVisor without KVM) on your own Linux hosts, with an HTTP API and CLI, pause/resume, forks, network allowlists, and secrets injected outside the sandbox.
+  - docs: https://github.com/TulipFarm/spawnbox#readme
 
 ## Browser and Computer Use
 
@@ -201,6 +223,11 @@
   - docs: https://github.com/theluckystrike/tapvow#readme
 - [TruLens](https://github.com/truera/trulens): Open-source evaluation and tracking for LLM apps and agents. RAG Triad metrics, feedback functions, and experiment comparison dashboard.
   - docs: https://www.trulens.org/docs/
+
+## Guardrails and Governance
+
+- [Vulnify](https://www.vulnify.io): Runtime authorization API for AI agents. Before a tool call runs, the agent sends the proposed action and gets ALLOW, REVIEW (held for a person to approve) or BLOCK under your policies, with an audit trail. Python and TypeScript SDKs plus an MCP server.
+  - docs: https://docs.vulnify.io
 
 ## Retrieval and RAG
 
