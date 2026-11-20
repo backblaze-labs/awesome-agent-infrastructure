@@ -1460,3 +1460,13 @@
     - {language: TypeScript (npm install @vulnify/sdk)}
   b2_integration: ""
   last_verified: 2026-11-10
+
+- name: Sandswap
+  url: https://github.com/ChaoyiHuang/sandswap
+  docs_url: https://chaoyihuang.github.io/sandswap/
+  description: MicroVM sandbox runtime that decouples compute from disk, mounting an agent's rootfs directory into a reusable microVM, with HTTP and MCP interfaces for command execution.
+  category: execution-sandboxes
+  github: ChaoyiHuang/sandswap
+  license: BSL-1.1
+  b2_integration: ""
+  last_verified: 2026-11-19
