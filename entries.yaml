@@ -168,6 +168,20 @@
   b2_integration: ""
   last_verified: 2026-11-14
 
+- name: AgentField
+  url: https://agentfield.ai
+  docs_url: https://agentfield.ai/docs
+  description: Open-source framework and control plane for writing agents that run as backend services, callable over HTTP, with durable runs, per-agent identity, policy, and an audit trail.
+  category: agent-frameworks
+  github: Agent-Field/agentfield
+  license: Apache-2.0
+  sdks:
+    - {language: Python}
+    - {language: TypeScript}
+    - {language: Go}
+  b2_integration: ""
+  last_verified: 2026-11-21
+
 # ---------------- Memory and State ----------------
 
 - name: Letta
