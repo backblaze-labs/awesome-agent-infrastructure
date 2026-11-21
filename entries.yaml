@@ -1469,3 +1469,13 @@
   license: BSL-1.1
   b2_integration: ""
   last_verified: 2026-11-19
+
+- name: Oh My Android
+  url: https://royan.se/work/oh-my-android/
+  docs_url: https://github.com/ateymoori/oh-my-android#ai-agents-mcp
+  description: Native macOS app that controls the Android Emulator and adb devices, with a built-in stdio MCP server (18 tools) so Claude Code, Codex, Cursor and VS Code can screenshot, inspect layouts in dp, tap, and toggle dark mode, locale, RTL and network settings.
+  category: tool-protocols-and-servers
+  github: ateymoori/oh-my-android
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-21
