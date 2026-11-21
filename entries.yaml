@@ -3,6 +3,19 @@
 
 # ---------------- Agent Frameworks ----------------
 
+- name: Hexagon
+  url: https://hexagon.autos
+  docs_url: https://docs.hexagon.autos/en
+  description: Developer-preview agent control plane with persistent Sessions, Runs, and replayable events, connecting application backends to cloud sandboxes and versioned harnesses.
+  category: agent-frameworks
+  github: NexusFox88/Hexagon
+  license: Apache-2.0
+  sdks:
+    - {language: Python}
+    - {language: TypeScript}
+  b2_integration: ""
+  last_verified: 2026-11-21
+
 - name: LangGraph
   url: https://langchain-ai.github.io/langgraph/
   docs_url: https://langchain-ai.github.io/langgraph/tutorials/introduction/
