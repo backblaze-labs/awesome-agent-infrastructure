@@ -911,6 +911,20 @@
 
 # ---------------- Observability and Evaluation (additions) ----------------
 
+- name: Agentrail
+  url: https://www.agentrail.co/
+  docs_url: https://www.agentrail.co/docs/guides/journeys
+  description: Reconstructs an AI agent's requests across a developer platform's docs, APIs and MCP tools so maintainers can trace retries and errors.
+  category: observability-and-evaluation
+  github: agentrail-co/agentrail-js
+  license: Apache-2.0
+  sdks:
+    - {language: JavaScript}
+    - {language: Python}
+    - {language: Go}
+  b2_integration: ""
+  last_verified: 2026-11-21
+
 - name: AgentOps
   url: https://www.agentops.ai
   docs_url: https://docs.agentops.ai
