@@ -1365,6 +1365,18 @@
   b2_integration: ""
   last_verified: 2026-11-09
 
+- name: EvalShift
+  url: https://www.evalshift.dev
+  docs_url: https://www.evalshift.dev/docs
+  description: Open-source CLI that replays recorded agent runs on the current and a candidate model and reports which tool calls and outputs regressed, with paired statistics and a GitHub Action for CI gating.
+  category: observability-and-evaluation
+  github: evalshift/evalshift-cli
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install evalshift)}
+  b2_integration: ""
+  last_verified: 2026-11-22
+
 - name: Agent Commons
   url: https://github.com/MrRex168/agent-commons
   docs_url: https://github.com/MrRex168/agent-commons#readme
