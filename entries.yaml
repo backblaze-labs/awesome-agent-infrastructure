@@ -558,6 +558,17 @@
   b2_integration: ""
   last_verified: 2026-10-15
 
+- name: Mobilebox
+  url: https://mobilebox.dev
+  docs_url: https://mobilebox.dev/docs
+  description: Cloud Android phones and iOS simulators that agents control over a REST API or a hosted MCP server, reading the screen as numbered elements, tapping, typing, swiping and installing apps.
+  category: browser-and-computer-use
+  sdks:
+    - {language: Python (pip install mobilebox)}
+    - {language: Node (npm install mobilebox)}
+  b2_integration: ""
+  last_verified: 2026-11-22
+
 # ---------------- Observability and Evaluation ----------------
 
 - name: ReMCP
