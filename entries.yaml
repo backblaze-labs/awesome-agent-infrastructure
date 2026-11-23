@@ -1460,6 +1460,16 @@
   b2_integration: ""
   last_verified: 2026-11-10
 
+- name: FlowFeed MCP
+  url: https://flowfeed.cc
+  docs_url: https://github.com/loyt1/flowfeed-mcp
+  description: Hosted remote MCP server (Streamable HTTP, OAuth 2.1) that gives agents macro, forex and crypto news from 30 sources, an economic calendar with forecast and actual values, and central bank releases; the docs repo is public while the backend is proprietary.
+  category: tool-protocols-and-servers
+  github: loyt1/flowfeed-mcp
+  license: Proprietary
+  b2_integration: ""
+  last_verified: 2026-11-24
+
 - name: Sandswap
   url: https://github.com/ChaoyiHuang/sandswap
   docs_url: https://chaoyihuang.github.io/sandswap/
