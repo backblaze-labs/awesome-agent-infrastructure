@@ -1309,6 +1309,16 @@
     - {language: Python}
   b2_integration: ""
   last_verified: 2026-10-16
+- name: CallForMe
+  url: https://callforme.tel
+  docs_url: https://callforme.tel/docs/mcp
+  description: Phone-calling service for agents: a remote MCP server and REST API place calls to US and Canadian businesses and return the answers and a transcript.
+  category: tool-protocols-and-servers
+  github: callforme-tel/callforme
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 # ---------------- Tool Protocols and Servers (additions 2026-10-18) ----------------
 
 - name: Aident Loadout
