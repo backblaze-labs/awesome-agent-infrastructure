@@ -1365,6 +1365,16 @@
   b2_integration: ""
   last_verified: 2026-11-09
 
+- name: Watch
+  url: https://relay.bobochang.cn/en/
+  docs_url: https://github.com/can4hou6joeng4/Watch/blob/main/README.en.md#install
+  description: Local CLI and desktop tool that carries coding-agent session history across clients, with a Claude Code to Codex Desktop import path and Markdown handoff summaries.
+  category: memory-and-state
+  github: can4hou6joeng4/Watch
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 - name: Agent Commons
   url: https://github.com/MrRex168/agent-commons
   docs_url: https://github.com/MrRex168/agent-commons#readme
