@@ -1406,6 +1406,19 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-10-25
+- name: Runheed
+  url: https://runheed.com
+  docs_url: https://runheed.com/docs
+  description: Error tracking for production apps with a remote MCP server and Node and Python SDKs, so coding agents can search error groups, read full context and mark them resolved with the fixing commit.
+  category: observability-and-evaluation
+  github: getrunheed/runheed-plugin
+  license: MIT
+  sdks:
+    - {language: TypeScript}
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 # ---------------- Browser and Computer Use (additions 2026-10-16) ----------------
 
 - name: CurlShot
