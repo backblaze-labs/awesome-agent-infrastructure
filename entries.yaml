@@ -1384,6 +1384,16 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-11-09
+- name: Taskhold
+  url: https://taskhold.com
+  docs_url: https://taskhold.com/docs/mcp-tools
+  description: Task list shared by a person and their coding agents, with a remote MCP server and REST API for filing tasks, planning steps and reporting live progress.
+  category: memory-and-state
+  github: gettaskhold/taskhold-plugin
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 # ---------------- Memory and State (additions 2026-11-02) ----------------
 
 - name: Concord
