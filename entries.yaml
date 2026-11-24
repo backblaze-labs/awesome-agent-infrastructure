@@ -1469,3 +1469,14 @@
   license: BSL-1.1
   b2_integration: ""
   last_verified: 2026-11-19
+
+- name: Platinum
+  url: https://www.platinum.dev
+  docs_url: https://www.platinum.dev/docs
+  description: Sandbox API for AI agents in which each sandbox is a Cloud Hypervisor microVM with its own kernel. Exec and managed processes, a filesystem API, a stop that keeps memory and processes, snapshots and forks, volumes, and an egress proxy that writes org secrets into request headers.
+  category: execution-sandboxes
+  sdks:
+    - {language: Python}
+    - {language: TypeScript}
+  b2_integration: ""
+  last_verified: 2026-11-24
