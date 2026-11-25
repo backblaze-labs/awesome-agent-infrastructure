@@ -271,9 +271,9 @@
   last_verified: 2026-11-01
 
 - name: ClickHouse Loom
-  url: https://github.com/ClickHouse/loom
-  docs_url: https://clickhouse.github.io/loom/
-  description: Self-hosted MCP server and HTTP API that gives agents shared long-term memory, document search with citations and a code index, stored in ClickHouse.
+  url: https://loom.clickhouse.com/
+  docs_url: https://loom.clickhouse.com/docs
+  description: Self-hosted server that gives AI agents shared long-term memory over MCP and HTTP, retrieves cited document passages, and links saved decisions to indexed source code.
   category: memory-and-state
   github: ClickHouse/loom
   license: Apache-2.0
@@ -281,7 +281,7 @@
     - {language: Python}
     - {language: TypeScript}
   b2_integration: ""
-  last_verified: 2026-11-16
+  last_verified: 2026-11-25
 
 # ---------------- Tool Protocols and Servers ----------------
 
