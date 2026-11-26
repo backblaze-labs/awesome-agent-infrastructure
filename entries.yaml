@@ -1469,3 +1469,14 @@
   license: BSL-1.1
   b2_integration: ""
   last_verified: 2026-11-19
+
+- name: Sandboxer
+  url: https://sandboxer.com
+  docs_url: https://sandboxer.com/docs
+  description: Cloud sandboxes for agents that are full Ubuntu 24.04 microVMs with their own kernel, with root, systemd, Docker, nested KVM, SSH and an HTTPS URL for any port. Stopping one saves memory as well as disk, so processes keep running after resume. CLI, REST API and hosted MCP server.
+  category: execution-sandboxes
+  sdks:
+    - {language: TypeScript}
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-11-26
