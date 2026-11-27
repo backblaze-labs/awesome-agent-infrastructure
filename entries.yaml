@@ -1469,3 +1469,11 @@
   license: BSL-1.1
   b2_integration: ""
   last_verified: 2026-11-19
+
+- name: Alter Ego
+  url: https://cloudalterego.cafeboon.com
+  docs_url: https://cloudalterego.cafeboon.com/docs.html
+  description: Hosted MCP server that gives AI chats one shared memory, kept in the user's own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps, with instructions saved per client, project, task or tool.
+  category: memory-and-state
+  b2_integration: ""
+  last_verified: 2026-11-27
