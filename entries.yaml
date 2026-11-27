@@ -1469,3 +1469,13 @@
   license: BSL-1.1
   b2_integration: ""
   last_verified: 2026-11-19
+
+- name: Sandscale
+  url: https://sandscale.dev
+  docs_url: https://sandscale.dev/docs
+  description: Hosted Firecracker microVM sandboxes for AI coding agents, one per run, driven over a REST API, SDK, CLI or remote MCP server, with policy controls, approvals and an audit log.
+  category: execution-sandboxes
+  sdks:
+    - {language: TypeScript}
+  b2_integration: ""
+  last_verified: 2026-11-27
