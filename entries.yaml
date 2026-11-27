@@ -1469,3 +1469,13 @@
   license: BSL-1.1
   b2_integration: ""
   last_verified: 2026-11-19
+
+- name: EverythingConnect
+  url: https://github.com/jiangxingfan1-coder/EverythingConnect
+  docs_url: https://github.com/jiangxingfan1-coder/EverythingConnect#readme
+  description: Connects configured local software capabilities to agent workflows through CLI, MCP, ACP and OpenAPI using ConnectIR definitions.
+  category: tool-protocols-and-servers
+  github: jiangxingfan1-coder/EverythingConnect
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-11-28
